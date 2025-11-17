@@ -1,0 +1,38 @@
+{
+  "dataset_id": "MDPI_Processes2021_PaintShop",
+  "scope": {
+    "adjacency": "across_skids_only",
+    "within_skid_rules": "none"
+  },
+  "files": [
+    {"path": "line_cadence.csv",        "rows": 1},
+    {"path": "color_codebook.csv",      "rows": 10},
+    {"path": "color_rules.csv",         "rows": 11},
+    {"path": "s_matrix_transition.csv", "rows": 100},
+    {"path": "parts.csv",               "rows": 31},
+    {"path": "demands.csv",             "rows": 83},
+    {"path": "fixtures.csv",            "rows": 31},
+    {"path": "adjacency_rules.csv",     "rows": 38}
+  ],
+  "stats": {
+    "demands": {
+      "sum_quantity": 13445,
+      "unique_pairs": 83,
+      "color_domain_used": [1,2,3,4,5,6,7,8,9,10]
+    },
+    "s_matrix_transition": {
+      "inf_count": 15,
+      "diag_zeros": 9,
+      "two_to_two_is_inf": true
+    },
+    "adjacency_rules": {
+      "P1_rows": 18,
+      "P2_rows": 20,
+      "scope_values": ["across_skids"]
+    },
+    "capacity_note": {
+      "cycle_slots": 1818,
+      "comment": "cycle_slots = 303 skids × 6 brackets per skid"
+    }
+  }
+}

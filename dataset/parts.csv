@@ -1,0 +1,32 @@
+part_id,part_name,part_category,part_type,part_no
+upper_grille_a,Upper grille A,Upper grille,A,1
+upper_grille_b,Upper grille B,Upper grille,B,2
+middle_spoiler_a,Middle spoiler A,Middle spoiler,A,3
+front_bumper_a,Front bumper A,Front bumper,A,4
+front_bumper_b,Front bumper B,Front bumper,B,5
+front_bumper_c,Front bumper C,Front bumper,C,6
+front_bumper_d,Front bumper D,Front bumper,D,7
+front_bumper_e,Front bumper E,Front bumper,E,8
+front_bumper_f,Front bumper F,Front bumper,F,9
+front_bumper_g,Front bumper G,Front bumper,G,10
+rear_bumper_a,Rear bumper A,Rear bumper,A,11
+rear_bumper_b,Rear bumper B,Rear bumper,B,12
+rear_bumper_c,Rear bumper C,Rear bumper,C,13
+rear_bumper_d,Rear bumper D,Rear bumper,D,14
+rear_bumper_e,Rear bumper E,Rear bumper,E,15
+rear_bumper_f,Rear bumper F,Rear bumper,F,16
+rear_bumper_g,Rear bumper G,Rear bumper,G,17
+shell_a,Shell A,Shell,A,18
+rim_decoration_a,Rim decoration A,Rim decoration,A,19
+rim_decoration_b,Rim decoration B,Rim decoration,B,20
+threshold_a,Threshold A,Threshold,A,21
+threshold_b,Threshold B,Threshold,B,22
+threshold_c,Threshold C,Threshold,C,23
+threshold_d,Threshold D,Threshold,D,24
+threshold_e,Threshold E,Threshold,E,25
+threshold_trim_a,Threshold trim A,Threshold trim,A,26
+radar_bracket_a,Radar bracket A,Radar bracket,A,27
+radar_bracket_b,Radar bracket B,Radar bracket,B,28
+radar_bracket_c,Radar bracket C,Radar bracket,C,29
+radar_bracket_d,Radar bracket D,Radar bracket,D,30
+radar_bracket_e,Radar bracket E,Radar bracket,E,31

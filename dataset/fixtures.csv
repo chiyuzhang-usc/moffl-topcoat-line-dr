@@ -1,0 +1,32 @@
+part_id,part_name,bracket_number
+upper_grille_a,Upper grille A,34
+upper_grille_b,Upper grille B,39
+middle_spoiler_a,Middle spoiler A,95
+front_bumper_a,Front bumper A,400
+front_bumper_b,Front bumper B,28
+front_bumper_c,Front bumper C,141
+front_bumper_d,Front bumper D,255
+front_bumper_e,Front bumper E,297
+front_bumper_f,Front bumper F,280
+front_bumper_g,Front bumper G,51
+rear_bumper_a,Rear bumper A,304
+rear_bumper_b,Rear bumper B,21
+rear_bumper_c,Rear bumper C,251
+rear_bumper_d,Rear bumper D,11
+rear_bumper_e,Rear bumper E,3
+rear_bumper_f,Rear bumper F,225
+rear_bumper_g,Rear bumper G,131
+shell_a,Shell A,52
+rim_decoration_a,Rim decoration A,63
+rim_decoration_b,Rim decoration B,15
+threshold_a,Threshold A,341
+threshold_b,Threshold B,219
+threshold_c,Threshold C,69
+threshold_d,Threshold D,118
+threshold_e,Threshold E,3
+threshold_trim_a,Threshold trim A,76
+radar_bracket_a,Radar bracket A,5
+radar_bracket_b,Radar bracket B,16
+radar_bracket_c,Radar bracket C,9
+radar_bracket_d,Radar bracket D,10
+radar_bracket_e,Radar bracket E,11

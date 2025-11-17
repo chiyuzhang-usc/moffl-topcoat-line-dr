@@ -1,0 +1,38 @@
+Paint-line constants — all four numbers appear in Section 2.1 “Problem Description.”
+
+303 skids
+
+6 brackets per skid
+
+60 s per skid (→ 1.0 min)
+
+also says ≈5.5 h for 303 skids
+
+Lead-time target: 44 h 
+MDPI
+
+Topcoat vocabulary (10 entries) — the full list and numbering are in Table 1 “All categories of topcoats.”
+
+Polar White — 1
+
+Diamond White — 2
+
+Ruby Red — 3
+
+Denim Blue — 4
+
+Sapphire Blue — 5
+
+Shining Blue — 6
+
+Milan Silver — 7
+
+Iridium Silver — 8
+
+Universe Black — 9
+
+Obsidian Black — 10 
+MDPI
+
+Keep in your scratchpad for the next step, but do not encode yet: the transition-skid rule (primer skid inserted between different topcoats) and color restrictions C1–C3 in Section 2.2. We’ll formalize these in Step 2. 
+MDPI

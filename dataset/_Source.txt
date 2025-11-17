@@ -1,0 +1,3 @@
+https://www.mdpi.com/2227-9717/9/10/1714
+
+Optimizing Painting Sequence Scheduling Based on Adaptive Partheno-Genetic Algorithm

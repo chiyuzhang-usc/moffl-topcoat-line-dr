@@ -1,0 +1,12 @@
+from_topcoat_no,from_topcoat_name,to_topcoat_no,to_topcoat_name,relation,note,source
+3,Ruby Red,1,Polar White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+3,Ruby Red,2,Diamond White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+4,Denim Blue,1,Polar White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+4,Denim Blue,2,Diamond White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+5,Sapphire Blue,1,Polar White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+5,Sapphire Blue,2,Diamond White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+6,Shining Blue,1,Polar White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+6,Shining Blue,2,Diamond White,forbidden,C1: White cannot follow Red or Blue,Article Sec. 2.2
+1,Polar White,9,Universe Black,forbidden,C2: Black cannot follow Polar White,Article Sec. 2.2
+1,Polar White,10,Obsidian Black,forbidden,C2: Black cannot follow Polar White,Article Sec. 2.2
+1,Polar White,2,Diamond White,required_predecessor,C3: Only Polar White may precede Diamond White,Article Sec. 2.2

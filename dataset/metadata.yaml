@@ -1,0 +1,36 @@
+dataset_id: MDPI_Processes2021_PaintShop
+
+provenance:
+  citation_text: >
+    Processes (2021), “Optimizing Painting Sequence Scheduling Based on Adaptive Partheno-Genetic Algorithm,”
+    Sections 2.1–2.3 and Appendix A (Tables A1–A3).
+  source_type: anonymized industrial dataset reproduced in-article
+  data_location: in-paper appendix (no external repository)
+
+constants:
+  cycle_time_min: 1.0
+  skids_total: 303
+  brackets_per_skid: 6
+  lead_time_hours: 44
+  note_time_discrepancy: "303 min = 5.05 h vs text ≈ 5.5 h; documented for transparency"
+
+colors:
+  count: 10
+  table: "Table 1 (topcoat categories)"
+
+sdsu_model:
+  changeover_matrix: s_matrix_transition.csv
+  changeover_semantics: "0.0 for same color; 1.0 minute for any allowed color change; INF where forbidden by C1–C3"
+  transition_skid_note: "Color change inserts a primer (transition) skid; modeled as 1.0 minute per change"
+
+constraints:
+  color_rules: "C1–C3 (Sec. 2.2) encoded in color_rules.csv"
+  adjacency_rules: "P1–P2 (Sec. 2.3) encoded in adjacency_rules.csv"
+  adjacency_scope: across_skids_only
+  within_skid_rules: none
+
+counts:
+  parts_rows: 31
+  fixtures_rows: 31
+  demands_rows: 83
+  demands_sum_quantity: 13445

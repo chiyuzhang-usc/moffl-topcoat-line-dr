@@ -1,0 +1,69 @@
+dataset_id: MDPI_Processes2021_PaintShop
+objective: minimize_total_setup_time          # sum of SDSU costs via s_matrix_transition.csv
+objective_secondary: minimize_color_changes        # for tie-breaker
+
+constraints:
+  color_rules_file: color_rules.csv           # C1–C3
+  adjacency_rules_file: adjacency_rules.csv   # P1–P2 (across-skid only)
+   adjacency_scope: across_skids_only         # meta info
+   
+sdsu:
+  matrix_file: s_matrix_transition.csv
+  changeover_time_min_per_change: 1.0         # transition-skid modeling (60 s per change)
+  
+line:
+  skids_total_per_cycle: 303
+  brackets_per_skid: 6
+  cycles: 8                                   # 13,445 parts ≈ 7.40 cycles ⇒ use 8
+  
+production:
+  parts_file: parts.csv
+  demands_file: demands.csv
+  fixtures_file: fixtures.csv                 # uses bracket_count as per-cycle cap per part
+
+feasibility:
+  forbid_inf_transitions: true                # must be zero
+  forbid_rule_violations: true                # must be zero for P1/P2
+
+# solver config
+solver:
+  name: nsga2
+  params:
+    pop_size: 200
+    max_iters: 10000
+    crossover_rate: 0.9
+    mutation_rate: 0.1
+    elites: 4
+  initialization:
+    strategy: color_blocked_then_repair           # seed population
+  repair:
+    enforce_C_rules: true                         # C1–C3
+    enforce_P_rules: true                         # P1–P2
+    enforce_capacity: true
+
+
+evaluation:
+  metrics:
+    - total_setup_minutes
+    - color_changes
+    - primer_skids_inserted                   # equals color_changes in this model
+    - rule_violations_C1_C2_C3
+    - rule_violations_P1_P2
+    - per_color_changes                       # vector
+    - utilization_slots                       # used slots / (cycles*303*6)
+    - cycle_makespan_minutes                  # cycles*303 minutes
+    - per_cycle_throughput                    # produced parts per cycle
+
+# output configuration
+outputs:
+  write_schedule_csv: true
+  schedule_csv_path: schedule.csv
+  write_metrics_json: true
+  metrics_json_path: metrics.json
+  write_color_sequence_csv: true
+  color_sequence_csv_path: color_sequence.csv
+
+
+logging:
+  seed: 1
+  check_interval_skids: 50

@@ -1,0 +1,34 @@
+We completed the MDPI paint-shop dataset end-to-end and validated it for SDSU/SDST analysis. 
+
+First, we fixed the line constants (303 skids, 6 brackets/skid, 60 s/skid = 1.0 min, lead time 44 h) and a 10-color codebook. 
+We formalized the color sequencing rules from the article: 
+	C1 white cannot follow red or blue; 
+	C2 black cannot follow polar white; 
+	C3 diamond white must be immediately preceded by polar white. 
+
+These were embedded in an SDSU changeover matrix (s_matrix_transition.csv) with 
+	0.0 for same-color, 
+	1.0 min for any allowed color change (transition-skid modeling), 
+	and INF for forbidden pairs; 
+critically, 2→2 (diamond white→diamond white) is INF, yielding a 10×10 matrix with 15 INF entries and 9 diagonal zeros. 
+
+We then built the core data sheets from Appendix A: 
+	parts.csv (31 part types), 
+	demands.csv (83 (part,color) pairs, ∑ quantity = 13,445),
+	fixtures.csv (per-part bracket_count inventory). 
+
+Next, we encoded across-skid adjacency rules only (the paper defines no within-skid constraints): 
+	P1 forbids immediate succession between different classes among I1={Threshold B}, I2={Threshold C}, I3={Rear bumper A, Threshold A, Threshold D, Threshold trim A}—same-class back-to-back is allowed; 
+	P2 forbids immediate succession between I1∪I2 and I4={Radar bracket A–E}. 
+
+Check: All artifacts passed validation: schemas, name/number consistency, joins (no orphans), integer domains, ∑ quantity=13,445, color domain closure, and matrix/rule coherence; capacity arithmetic was recorded (303×6=1,818 cycle slots). 
+
+We finalized the dataset with adjacency_rules.csv (across-skid only) and a manifest/metadata spec, explicitly noting the 5.05 h vs “≈5.5 h” timing remark. The dataset is locked and ready for sequencing experiments under SDSU with these rules and costs.
+
+
+
+Cycle Quota is the target number of units per part_id to produce in one conveyor cycle (one full loop of 303 skids).
+
+Horizon: computed from demand and line capacity (303×6=1,818 slots/cycle), so cycles = ceiling(13,445 / 1,818) = 8.
+
+Quotas: for each part and each cycle, quota = min(bracket_count, remaining_demand); if a cycle’s sum exceeded 1,818, I scaled quotas down proportionally with largest-remainder rounding, then continued to the next cycle. Per-part totals equal original demand exactly; each cycle stays ≤ 1,818.
