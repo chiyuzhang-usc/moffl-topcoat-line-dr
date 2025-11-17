@@ -1,0 +1,70 @@
+# step02_empirical.toml
+# Empirical shaping parameters for STEP-02 (Toyota Grouping & Spacing).
+# This file does NOT define C1/C2 semantics; it only tunes heuristic behavior.
+# All hard constraints still come from:
+#   - global_config.toml
+#   - s_matrix_transition.csv
+#   - topcoat_rules.csv
+#   - adjacency_rules.csv
+
+[defaults]
+# -------------------------------------------------------------------
+# Global overrides for window and spacing.
+# If a key is omitted here, the value from global_config.toml is used.
+# -------------------------------------------------------------------
+
+# Effective window size W:
+#   - If [window].mode = "ratio":
+#       W = ceil(window_ratio * N_jobs)
+#   - If [window].mode = "jobs" and global_config sets an explicit job count,
+#     this ratio is ignored.
+#
+# Recommended starting point: match global_config [window].ratio.
+window_ratio  = 0.15
+
+# Run-length caps (per color c):
+#   run_cap(c) = min(alpha_run_cap * W, max_run_abs, topcoat-specific max_run_jobs if defined)
+alpha_run_cap = 0.6
+max_run_abs   = 30
+
+# Token scoring bias (heuristic only, not semantics):
+#   - flush_weight > 1.0 ⇒ prefer to avoid FLUSH
+#   - empty_weight > 1.0 ⇒ prefer to avoid EMPTY
+#   - < 1.0 makes the corresponding token more acceptable in scoring.
+flush_weight  = 1.0
+empty_weight  = 1.0
+
+# -------------------------------------------------------------------
+# Optional empirical target mix.
+# If omitted or left empty, STEP-02 will not use an explicit target mix
+# and will rely purely on run caps and spacing logic.
+#
+# To use, uncomment and set approximate fractions; they will be
+# re-normalized at runtime.
+# -------------------------------------------------------------------
+[target_mix]
+# Example (commented out, adjust to actual topcoat codes and desired fractions):
+# C_BLK = 0.35
+# C_WHT = 0.40
+# C_DW  = 0.25
+
+
+# -------------------------------------------------------------------
+# Per-topcoat fine-tuning.
+#
+# Section key must match actual topcoat_code values in the data.
+# None of these fields are required; missing entries fall back to
+# the [defaults] and global_config.toml values.
+# -------------------------------------------------------------------
+
+# [topcoat.C_BLK]
+# priority_weight = 1.0   # >1: more willing to pick when spacing deficit is negative
+# max_run_jobs    = 20    # optional color-specific hard cap on run length
+
+# [topcoat.C_WHT]
+# priority_weight = 1.0
+# max_run_jobs    = 40
+
+# [topcoat.C_DW]
+# priority_weight = 1.0
+# max_run_jobs    = 40

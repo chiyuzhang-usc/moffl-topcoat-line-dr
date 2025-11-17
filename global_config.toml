@@ -1,0 +1,224 @@
+# ================================================================
+# MOFFS Global Configuration (Canonical)
+# ================================================================
+# Governs: topology, data bindings, tokens, adjacency, SDSU/MILP/NSGA-II/DES knobs.
+# All steps (01–09) must treat this file as the single source of truth.
+
+# ----------------------------------------------------------------
+# 1) System layout and global paths
+# ----------------------------------------------------------------
+
+[system]
+layout          = "2paint-1merged"   # 2 paint booths feeding a single merged oven conveyor
+time_unit       = "paint_unit"       # base unit for paint/setup/flush costs
+capacity_kappa  = 2                  # 2→1 baseline; 3→1 only for explicit stress tests
+
+[paths]
+dataset_dir     = "dataset"
+output_dir      = "output"
+docs_dir        = "docs"
+manifests_dir   = "output/manifests"
+reports_dir     = "output/reports"
+logs_dir        = "logs"
+
+[logging]
+level           = "INFO"             # {DEBUG, INFO, WARNING, ERROR}
+log_to_file     = true
+log_filename    = "moffs.log"
+
+[reproducibility]
+seeds           = [19, 23, 37]       # canonical RNG seeds for stochastic components
+fixed_random    = true               # when true, all stochastic steps must use the listed seeds
+env_tag         = "local"            # label of environment (e.g., local, cluster, docker)
+
+# ----------------------------------------------------------------
+# 2) Data bindings (dataset files and schema hints)
+# ----------------------------------------------------------------
+
+[data_files]
+demands              = "demands_scaled_100to1.csv"    #"demands.csv"
+topcoat_codebook     = "topcoat_codebook.csv"
+topcoat_rules        = "topcoat_rules.csv"
+s_matrix_transition  = "s_matrix_transition.csv"
+s_lookup_transition  = "s_lookup_transition.csv"
+adjacency_rules      = "adjacency_rules.csv"
+fixtures             = "fixtures.csv"
+cycle_quota          = "cycle_quota.csv"
+line_cadence         = "line_cadence.csv"
+parts                = "parts.csv"
+
+# Schema hints used by Step-01 and later checks.
+# Steps must auto-detect columns using these synonym lists, but never rename dataset files.
+
+[data_schema.demands]
+part_id_synonyms         = ["part_id"]
+topcoat_code_synonyms    = ["topcoat_code", "color_code"]
+topcoat_name_synonyms    = ["topcoat_name"]
+quantity_synonyms        = ["quantity", "qty"]
+
+[data_schema.topcoat_codebook]
+topcoat_code_synonyms    = ["topcoat_code", "color_code"]
+topcoat_name_synonyms    = ["topcoat_name"]
+topcoat_family_synonyms  = ["topcoat_family", "family"]
+
+[data_schema.parts]
+part_id_synonyms         = ["part_id"]
+part_name_synonyms       = ["part_name"]
+part_category_synonyms   = ["part_category"]
+part_type_synonyms       = ["part_type"]
+part_no_synonyms         = ["part_no"]
+
+[data_schema.s_matrix_transition]
+from_code_synonyms       = ["from"]
+# Remaining columns are to_topcoat_code headers; matrix is wide.
+
+[data_schema.s_lookup_transition]
+from_topcoat_no_synonyms = ["from_topcoat_no"]
+to_topcoat_no_synonyms   = ["to_topcoat_no"]
+setup_time_synonyms      = ["setup_time_min"]
+
+[data_schema.topcoat_rules]
+from_topcoat_code_synonyms = ["from_topcoat_code","from_topcoat_no"]
+to_topcoat_code_synonyms   = ["to_topcoat_code", "to_topcoat_no"]
+relation_synonyms          = ["relation"]
+
+[data_schema.adjacency_rules]
+from_part_id_synonyms    = ["from_part_id"]
+to_part_id_synonyms      = ["to_part_id"]
+scope_synonyms           = ["scope"]
+relation_synonyms        = ["relation"]
+
+[data_schema.fixtures]
+part_id_synonyms         = ["part_id"]
+bracket_number_synonyms  = ["bracket_number"]
+
+[data_schema.cycle_quota]
+cycle_synonyms           = ["cycle"]
+part_id_synonyms         = ["part_id"]
+quota_synonyms           = ["quota"]
+
+[data_schema.line_cadence]
+cycle_time_min_synonyms    = ["cycle_time_min"]
+skids_total_synonyms       = ["skids_total"]
+brackets_per_skid_synonyms = ["brackets_per_skid"]
+lead_time_hours_synonyms   = ["lead_time_hours"]
+
+# ----------------------------------------------------------------
+# 3) Paint & part rules (C1 / paint and C2 / adjacency policy)
+# ----------------------------------------------------------------
+
+[system.topcoat_rules]
+scope                    = "paint_only"   # paint constraints apply inside booths only
+
+[paint_rules]
+use_start_token          = true           # enable START vector for first-job setup cost
+use_flush_token          = true           # enable FLUSH in paint domain
+flush_allowed_targets    = "DW_only"      # {"DW_only","any", or array of topcoat_codes}
+flush_cost_time          = 3.0            # τ_flush in paint_units
+flush_cost_overrides     = {}             # e.g., { "C_DW": 3.0 }
+flush_enter_cost         = 0.0            # optional cost for u→FLUSH
+flush_requires_change    = true           # forbid FLUSH when topcoat does not change
+
+[part_rules]
+enforce_in_booth         = true           # C2 enforced inside booths
+enforce_on_merged        = true           # C2 enforced on global 2→1 convoy
+scope_escalation         = "global_if_missing"  # { "none", "global_if_missing" }
+
+[merged_rules]
+enforce_topcoat_adjacency = false         # topcoat adjacency is not re-checked at merge
+
+# ----------------------------------------------------------------
+# 4) Window & spacing (Toyota Grouping & Spacing, Step-02)
+# ----------------------------------------------------------------
+
+[window]
+mode                 = "ratio"    # {"jobs","ratio"}; W computed once per feeder
+jobs                 = 0          # if >0 and mode="jobs": W = jobs
+ratio                = 0.15       # if mode="ratio": W = ceil(ratio * N_jobs)
+
+[spacing]
+alpha_run_cap        = 0.6        # per-color max run as fraction of W (0..1)
+max_run_abs          = 30         # absolute fallback max run length for any topcoat
+picker               = "weighted" # {"setup","spacing","blend","weighted"}
+weight_setup         = 1.0        # relative weight of setup cost in greedy picker
+weight_spacing       = 1.0        # relative weight of spacing (mix) in greedy picker
+weight_blend         = 0.5        # relative weight of blend/other criteria
+
+# ----------------------------------------------------------------
+# 5) Token semantics (units, not wall-clock time)
+# ----------------------------------------------------------------
+
+[tokens]
+flush_units_ratio           = 3.0    # cost(FLUSH) in paint_units
+empty_units_prepaint        = 1.0    # cost(EMPTY) as pre-paint spacer
+empty_units_postpaint_ratio = 1.0    # optional: post-paint EMPTY cost ratio
+
+# ----------------------------------------------------------------
+# 6) Adjacency (C2) policy
+# ----------------------------------------------------------------
+
+[adjacency]
+enabled             = true        # master switch; steps must still read adjacency_rules.csv
+fifo_lookahead      = 3           # lookahead depth for C2 repair heuristics where applicable
+scope_escalation    = "global_if_missing"
+
+# ----------------------------------------------------------------
+# 7) Load metric for split (Step-03) — ρ
+# ----------------------------------------------------------------
+
+[rho]
+scale               = 1.0         # ρ_scale; ρ = ρ_scale * ρ_base
+
+# ----------------------------------------------------------------
+# 8) SDSU (Step-04) solver controls
+# ----------------------------------------------------------------
+
+[sdsu]
+dp_threshold_jobs   = 40          # max |jobs in booth| to attempt exact DP/ATSP-path solver
+max_2opt_passes     = 5           # local-improvement passes (0 disables 2-opt)
+allow_purge         = true        # FLUSH allowed for purge feasibility
+purge_cost_weight   = 1.0         # relative importance of purge vs. regular setups in f1
+
+# ----------------------------------------------------------------
+# 9) MILP (Step-06) controls — Gurobi
+# ----------------------------------------------------------------
+
+[milp]
+solver              = "gurobi"
+time_limit_sec      = 600.0       # global time limit per instance
+mip_gap             = 0.01        # relative MIP gap
+max_jobs_per_instance = 120       # reduced problems for exact MILP
+threads             = 0           # 0 ⇒ solver decides
+log_to_console      = true
+
+# ----------------------------------------------------------------
+# 10) NSGA-II (Step-07) controls
+# ----------------------------------------------------------------
+
+[nsga2]
+population_size     = 100
+generations         = 200
+crossover_rate      = 0.9
+mutation_rate       = 0.1
+tournament_size     = 4
+sdsu_kernel         = false        # if true, decode via SDSU-like kernel
+use_seeding         = false        # enable seeding from Toyota/SDSU solutions
+
+# ----------------------------------------------------------------
+# 11) DES (Step-08) controls
+# ----------------------------------------------------------------
+
+[des]
+theta               = 1.5         # downstream/paint service-time ratio
+beta                = 0           # buffer size between paint and oven (skids)
+trace_enabled       = false       # if true, generate step08_trace.csv
+warmup_cycles       = 0           # warmup discarded (0 = none)
+max_time_horizon    = 1.0e6       # simulation cutoff in paint_units
+
+# ----------------------------------------------------------------
+# 12) Objective reporting (Step-09 aggregation)
+# ----------------------------------------------------------------
+
+[objective]
+window_W_frac       = 0.15        # fraction used when recomputing f2 on final merged line
+report_pareto_only  = true        # only keep nondominated points in final metrics table

@@ -1,0 +1,134 @@
+# ================================================================
+# MOFFS Steps Configuration
+# ================================================================
+# I/O file names per step, relative to [paths.output_dir] (for outputs)
+# and [paths.dataset_dir] (for datasets) defined in global_config.toml.
+
+# ----------------------------------------------------------------
+# STEP-01 — Expand Jobs
+# ----------------------------------------------------------------
+
+[step01]
+jobs_expanded_relpath   = "step01_jobs_expanded.csv"
+manifest_relpath        = "manifests/step01_manifest.json"
+report_relpath          = "reports/step01_report.md"
+fail_on_missing_join    = "hard"        # {"hard","warn"}; missing joins abort when "hard"
+
+# ----------------------------------------------------------------
+# STEP-02 — Toyota Grouping & Spacing (Feeder)
+# ----------------------------------------------------------------
+
+[step02]
+input_jobs_relpath      = "step01_jobs_expanded.csv"
+paint_seed_relpath      = "step02_paint_seed.csv"   # token stream with START/JOB/EMPTY/FLUSH
+manifest_relpath        = "manifests/step02_manifest.json"
+report_relpath          = "reports/step02_report.md"
+use_cycle_quota         = false                     # use cycle_quota.csv if present
+export_jobs_only        = true                      # writer may also emit a JOB-only projection
+
+# ----------------------------------------------------------------
+# STEP-03 — Booth Assignment (JOB-only)
+# ----------------------------------------------------------------
+
+[step03]
+input_seed_relpath      = "step02_paint_seed.csv"
+booth1_relpath          = "step03_booth1.csv"
+booth2_relpath          = "step03_booth2.csv"
+assignment_relpath      = "step03_assignment.csv"
+manifest_relpath        = "manifests/step03_manifest.json"
+report_relpath          = "reports/step03_report.md"
+# reshuffle_L_max         = 0                         # bounded preceding-block reshuffle length, no longer used
+enforce_no_tokens       = true                      # safety check: forbid any token emission here
+
+# ----------------------------------------------------------------
+# STEP-04 — Per-Booth SDSU Ordering
+# ----------------------------------------------------------------
+
+[step04]
+booth1_input_relpath    = "step03_booth1.csv"
+booth2_input_relpath    = "step03_booth2.csv"
+booth1_output_relpath   = "step04_booth1_sdsu.csv"
+booth2_output_relpath   = "step04_booth2_sdsu.csv"
+flush_positions_relpath = "step04_flush_positions.json"
+manifest_relpath        = "manifests/step04_manifest.json"
+report_relpath          = "reports/step04_report.md"
+dp_threshold_jobs       = 40                        # shadow of [sdsu].dp_threshold_jobs
+
+# ----------------------------------------------------------------
+# STEP-05 — Merge to Global Oven Line (2→1)
+# ----------------------------------------------------------------
+
+[step05]
+booth1_input_relpath    = "step04_booth1_sdsu.csv"
+booth2_input_relpath    = "step04_booth2_sdsu.csv"
+global_line_relpath     = "step05_global_line.csv"  # JOB-only global convoy
+manifest_relpath        = "manifests/step05_manifest.json"
+report_relpath          = "reports/step05_report.md"
+allow_postpaint_empty   = true                     # default: no new EMPTY tokens at merge
+tie_break_policy        = "longer_remaining"        # {"longer_remaining","round_robin"}
+
+# ----------------------------------------------------------------
+# STEP-06 — MILP (Exact / Reduced)
+# ----------------------------------------------------------------
+
+[step06]
+milp_output_prefix      = "step06_milp_opt_"        # prefix, instance tag will be appended
+manifest_relpath        = "manifests/step06_manifest.json"
+report_relpath          = "reports/step06_report.md"
+enable_reduced_instances = false                     # if true, use reduced instances
+postpaint_empty_enabled = true # allow insert EMPTY to release deadlock
+
+# ----------------------------------------------------------------
+# STEP-07 — NSGA-II Search
+# ----------------------------------------------------------------
+
+[step07]
+pareto_relpath          = "step07_pareto.csv"
+manifest_relpath        = "manifests/step07_manifest.json"
+report_relpath          = "reports/step07_report.md"
+max_eval_per_seed       = 20000                     # cap on evaluations per seed
+
+# ----------------------------------------------------------------
+# STEP-08 — DES (Blocking / Idle)
+# ----------------------------------------------------------------
+
+[step08]
+booth1_input_relpath    = "step04_booth1_sdsu.csv"
+booth2_input_relpath    = "step04_booth2_sdsu.csv"
+global_line_relpath     = "step05_global_line.csv"
+metrics_relpath         = "step08_des_metrics.csv"
+trace_relpath           = "step08_trace.csv"
+manifest_relpath        = "manifests/step08_manifest.json"
+report_relpath          = "reports/step08_report.md"
+
+# ----------------------------------------------------------------
+# STEP-09 — Aggregation & Final Report
+# ----------------------------------------------------------------
+
+[step09]
+metrics_relpath           = "step09_metrics.csv"
+experiment_matrix_relpath = "step09_experiment_matrix.csv"
+manifest_relpath          = "manifests/step09_manifest.json"
+final_report_relpath      = "reports/step09_final_report.md"
+
+# Explicit inputs this step expects (for validation; optional)
+seed_stream_relpaths    = [
+    "step02_paint_seed.csv",
+]
+booth_stream_relpaths   = [
+    "step03_booth1.csv",
+    "step03_booth2.csv",
+    "step04_booth1_sdsu.csv",
+    "step04_booth2_sdsu.csv",
+]
+global_stream_relpaths  = [
+    "step05_global_line.csv",
+]
+front_relpaths          = [
+    "step06_milp_opt_",
+    "step07_pareto.csv",
+]
+des_relpaths            = [
+    "step08_des_metrics.csv",
+    "step08_trace.csv",
+]
