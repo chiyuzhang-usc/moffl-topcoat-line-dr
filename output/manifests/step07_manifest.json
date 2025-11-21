@@ -1,0 +1,54 @@
+{
+  "config_files": {
+    "global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+    "steps_config.toml": "65b62b0a5ada9a67263fad1147127b547bb1609ebbaa34972e5eb7568b53a39e"
+  },
+  "input_files": {
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\dataset\\adjacency_rules.csv": "b8a652432c9656fefeeac14e2237a8a89ae766ae5eb9848ded9974b02bc9ead2",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\dataset\\cycle_quota.csv": "d6a7dcea09dae153304739f6aac748dd847e7936f29b15c2fcc9e4c513927043",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\dataset\\s_matrix_transition.csv": "691d47ddda83efcbb46ad8da6b07384ba05ded416648460effecdf208c8e60b9",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\dataset\\topcoat_codebook.csv": "6fe43ca94c75c10caa87119e3880ba29022d8aaa33e9d5beb1ff6a912e7d40d8",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\dataset\\topcoat_rules.csv": "e2c6a616c875a076a296fd2ecebe32d27957a2c043a571538432b33a4fe53b46",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_assignment.csv": "cf98fbf2ee523c5ac73c831f1b88d402f54e9b5934658524bb33ca0f4f1b3e53",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_booth1.csv": "354d58856be6c488ddcc20c46140ab83a5da09a5a912dda287fec31fec5b6eb5",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_booth2.csv": "3754125d7f34c12fe9320604a15ee34cd933a56c995c6801f486de6652282826",
+    "global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+    "steps_config.toml": "65b62b0a5ada9a67263fad1147127b547bb1609ebbaa34972e5eb7568b53a39e"
+  },
+  "output_files": {
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\manifests\\step07_manifest.json": "365b8ce408bdaa8c79f748740018708ed143590e8be0db59c463578eb4b8ac77",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\reports\\step07_report.md": "606c1a6a7ecf43470bc12910c72cc48afa2489adab59baa8a822f3c8a776de44",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step07_booth_sequences.csv": "6c6da259a30b0844fa625b8a9314236fd3e4aa8839428f2a6d0d53fee2df4ec8",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step07_global_line.csv": "776ea7e021ceb24399784cbbae2c4e0594a75b8636e00193a8bf5866e9091712",
+    "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step07_pareto.csv": "723732722d219015987a6ae4f7c6b3a7544ebe4ae0351b84988208d2cfdf27f0"
+  },
+  "settings_effective": {
+    "allow_purge": true,
+    "crossover_rate": 0.9,
+    "flush_cost_units": 3.0,
+    "generations": 200,
+    "max_eval_per_seed": 20000,
+    "mutation_rate": 0.1,
+    "population_size": 100,
+    "repair_L_max": 3,
+    "rho_scale": 1.0,
+    "seeds": [
+      19,
+      23,
+      37
+    ],
+    "tie_break_policy": "longer_remaining",
+    "use_sdsu_kernel": false,
+    "use_seeding": false,
+    "window_jobs": 0,
+    "window_mode": "ratio",
+    "window_ratio": 0.15
+  },
+  "step": "step07_nsga2",
+  "summary": {
+    "feasible_solutions": 169,
+    "num_jobs": 183,
+    "pareto_count": 169,
+    "runtime_seconds": 160.54687080020085
+  }
+}

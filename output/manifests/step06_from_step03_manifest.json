@@ -1,0 +1,130 @@
+{
+  "step_id": "STEP06_MILP_FROM_STEP03",
+  "timestamp": "2025-11-16T15:16:30.738072",
+  "config_snapshot": {
+    "paths": {
+      "dataset_dir": "dataset",
+      "output_dir": "output",
+      "manifests_dir": "output\\manifests",
+      "reports_dir": "output\\reports"
+    },
+    "tokens": {
+      "flush_units_ratio": 3.0,
+      "empty_units_prepaint": 1.0,
+      "empty_units_postpaint_ratio": 1.0
+    },
+    "adjacency": {
+      "enabled": true,
+      "scope_escalation": "global_if_missing"
+    },
+    "sdsu": {
+      "allow_purge": true,
+      "purge_cost_weight": 1.0
+    },
+    "milp": {
+      "solver": "gurobi",
+      "time_limit_sec": 600.0,
+      "mip_gap": 0.01,
+      "max_jobs_per_instance": 120,
+      "threads": 0,
+      "log_to_console": true
+    },
+    "step06": {
+      "milp_output_prefix": "step06_milp_opt_",
+      "manifest_relpath": "manifests/step06_from_step03_manifest.json",
+      "report_relpath": "reports/step06_from_step03_report.md",
+      "enable_reduced_instances": false,
+      "postpaint_empty_enabled": true
+    }
+  },
+  "inputs": [
+    {
+      "path": "global_config.toml",
+      "sha256": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8"
+    },
+    {
+      "path": "steps_config.toml",
+      "sha256": "984420b879ae586cc862e16df894ceeaf300d250635e8811ccd0ee2c15f36647"
+    },
+    {
+      "path": "dataset\\s_matrix_transition.csv",
+      "sha256": "691d47ddda83efcbb46ad8da6b07384ba05ded416648460effecdf208c8e60b9"
+    },
+    {
+      "path": "dataset\\topcoat_rules.csv",
+      "sha256": "e2c6a616c875a076a296fd2ecebe32d27957a2c043a571538432b33a4fe53b46"
+    },
+    {
+      "path": "dataset\\topcoat_codebook.csv",
+      "sha256": "6fe43ca94c75c10caa87119e3880ba29022d8aaa33e9d5beb1ff6a912e7d40d8"
+    },
+    {
+      "path": "dataset\\adjacency_rules.csv",
+      "sha256": "b8a652432c9656fefeeac14e2237a8a89ae766ae5eb9848ded9974b02bc9ead2"
+    },
+    {
+      "path": "output\\step03_booth1.csv",
+      "sha256": "354d58856be6c488ddcc20c46140ab83a5da09a5a912dda287fec31fec5b6eb5"
+    },
+    {
+      "path": "output\\step03_booth2.csv",
+      "sha256": "3754125d7f34c12fe9320604a15ee34cd933a56c995c6801f486de6652282826"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "output\\step06_milp_opt_pb1_full.csv",
+      "sha256": "acb3d13f419913bdf057aea00055999e8766442d6f2d25ad786223c2784ecc67"
+    },
+    {
+      "path": "output\\step06_milp_opt_pb2_full.csv",
+      "sha256": "626f4b4ebff5c5c17d3bbe301f38cdf9be74149d31c1d093a957a39f1df15189"
+    },
+    {
+      "path": "output\\step06_milp_opt_global.csv",
+      "sha256": "c2b9bdda295112612e07e693a4064dc927f95acab4452a41fa69b44801d7d3e4"
+    },
+    {
+      "path": "output\\step06_milp_opt_global.csv",
+      "sha256": "c2b9bdda295112612e07e693a4064dc927f95acab4452a41fa69b44801d7d3e4"
+    },
+    {
+      "path": "output\\manifests\\step06_from_step03_manifest.json",
+      "sha256": "f4e4ad10cf30fa4a2812f0ce48d33e947dfec073b9994c77343aeedcf028991b"
+    },
+    {
+      "path": "output\\reports\\step06_from_step03_report.md",
+      "sha256": "37e2b36e8edcfd9347b1b6e6d631d71c5aea245239b678a96a910ae4a8021896"
+    }
+  ],
+  "instances": [
+    {
+      "instance_tag": "pb1_full",
+      "booth_id": 1,
+      "n_jobs": 91,
+      "is_full_booth": true,
+      "is_reduced": false,
+      "source_relpath": "step03_booth1.csv",
+      "status": "TIME_LIMIT",
+      "f1_milp": 9.0,
+      "f1_baseline": null,
+      "solver_mip_gap": 0.8888888888888888,
+      "solver_time_sec": 600.0160000324249,
+      "output_relpath": "step06_milp_opt_pb1_full.csv"
+    },
+    {
+      "instance_tag": "pb2_full",
+      "booth_id": 2,
+      "n_jobs": 92,
+      "is_full_booth": true,
+      "is_reduced": false,
+      "source_relpath": "step03_booth2.csv",
+      "status": "TIME_LIMIT",
+      "f1_milp": 8.0,
+      "f1_baseline": null,
+      "solver_mip_gap": 0.875,
+      "solver_time_sec": 600.050999879837,
+      "output_relpath": "step06_milp_opt_pb2_full.csv"
+    }
+  ]
+}

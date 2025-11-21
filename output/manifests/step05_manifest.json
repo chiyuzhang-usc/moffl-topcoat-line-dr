@@ -1,0 +1,38 @@
+{
+  "step": "step05_merge_global_line",
+  "version": "1.0",
+  "config_files": {
+    "global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+    "steps_config.toml": "65b62b0a5ada9a67263fad1147127b547bb1609ebbaa34972e5eb7568b53a39e"
+  },
+  "input_files": {
+    "global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+    "steps_config.toml": "65b62b0a5ada9a67263fad1147127b547bb1609ebbaa34972e5eb7568b53a39e",
+    "output\\step04_booth1_sdsu.csv": "12ed3f6ee1cffde98c3706da2681624e2d0566c2eda3627b4e9e532cf0a69e9c",
+    "output\\step04_booth2_sdsu.csv": "9d8e6e0c10d9cd39761dd970381acac70fa4a7163b20c6f8529f3adacbc683d0",
+    "dataset\\adjacency_rules.csv": "b8a652432c9656fefeeac14e2237a8a89ae766ae5eb9848ded9974b02bc9ead2"
+  },
+  "output_files": {
+    "output\\step05_global_line.csv": "2577fab0cce194fff8670b5fab73b2de4d3ff9df5c446b490e8fcaec752bdefd",
+    "output\\manifests\\step05_manifest.json": "8ae3aea033d2cbf54ba71dcf9a2272a1160966a027dc215843cbd078efad3224",
+    "output\\reports\\step05_report.md": "f2d2c5bf64a950a0145fa7c574e0ff7f31ee63598c5cbe000163dd153f01be3b"
+  },
+  "settings_effective": {
+    "allow_postpaint_empty": true,
+    "tie_break_policy": "longer_remaining",
+    "adjacency_enabled": true,
+    "scope_escalation": "global_if_missing",
+    "empty_units_postpaint_ratio": 1.0
+  },
+  "metrics": {
+    "n_jobs_total": 188,
+    "n_jobs_booth1": 91,
+    "n_jobs_booth2": 92,
+    "n_conflict_events": 16,
+    "n_deadlocks": 5,
+    "n_postpaint_empty": 5,
+    "max_run_booth1": 3,
+    "max_run_booth2": 2
+  },
+  "runtime_seconds": 0.06523990631103516
+}

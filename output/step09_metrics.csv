@@ -1,0 +1,544 @@
+exp_id,method_id,source_step,solution_type,solution_id,seed_mode,label,has_des,f1,f2,f3,f4,beta,theta,baseline_method_id,baseline_solution_id,delta_f1,delta_f2,delta_f3,dominates_baseline
+E0,S05_GS_SDSU,5,singleton,0,none,Step-05 GS→SDSU→Merge,False,,,,,,,S05_GS_SDSU,0,,,,False
+E0,S07_NSGA,7,front_point,0,none,"S07_NSGA (seed=none, id=0)",False,178.0,0.2380998554359381,36.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,1,none,"S07_NSGA (seed=none, id=1)",False,178.0,0.2380998554359381,36.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,2,none,"S07_NSGA (seed=none, id=2)",False,177.0,0.238117329857753,36.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,3,none,"S07_NSGA (seed=none, id=3)",False,177.0,0.238117329857753,36.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,4,none,"S07_NSGA (seed=none, id=4)",False,215.0,0.2354087944764174,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,5,none,"S07_NSGA (seed=none, id=5)",False,215.0,0.2354087944764174,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,6,none,"S07_NSGA (seed=none, id=6)",False,212.0,0.2357582829127188,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,7,none,"S07_NSGA (seed=none, id=7)",False,212.0,0.2357582829127188,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,8,none,"S07_NSGA (seed=none, id=8)",False,175.0,0.237802790265082,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,9,none,"S07_NSGA (seed=none, id=9)",False,174.0,0.2395851812902188,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,10,none,"S07_NSGA (seed=none, id=10)",False,171.0,0.2399521441483354,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,11,none,"S07_NSGA (seed=none, id=11)",False,170.0,0.2403715302718971,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,12,none,"S07_NSGA (seed=none, id=12)",False,170.0,0.2403715302718971,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,13,none,"S07_NSGA (seed=none, id=13)",False,167.0,0.2441809542275819,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,14,none,"S07_NSGA (seed=none, id=14)",False,166.0,0.2442683263366571,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,15,none,"S07_NSGA (seed=none, id=15)",False,164.0,0.2541937979276159,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,16,none,"S07_NSGA (seed=none, id=16)",False,164.0,0.2541937979276159,38.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,17,none,"S07_NSGA (seed=none, id=17)",False,181.0,0.2325080404551165,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,18,none,"S07_NSGA (seed=none, id=18)",False,180.0,0.2328051056259726,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,19,none,"S07_NSGA (seed=none, id=19)",False,180.0,0.2328051056259726,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,20,none,"S07_NSGA (seed=none, id=20)",False,180.0,0.2328051056259726,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,21,none,"S07_NSGA (seed=none, id=21)",False,179.0,0.2331021707968288,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,22,none,"S07_NSGA (seed=none, id=22)",False,179.0,0.2331021707968288,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,23,none,"S07_NSGA (seed=none, id=23)",False,179.0,0.2331021707968288,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,24,none,"S07_NSGA (seed=none, id=24)",False,178.0,0.2333293382804246,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,25,none,"S07_NSGA (seed=none, id=25)",False,178.0,0.2333293382804246,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,26,none,"S07_NSGA (seed=none, id=26)",False,176.0,0.2339584174657672,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,27,none,"S07_NSGA (seed=none, id=27)",False,176.0,0.2339584174657672,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,28,none,"S07_NSGA (seed=none, id=28)",False,176.0,0.2339584174657672,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,29,none,"S07_NSGA (seed=none, id=29)",False,175.0,0.2342380082148083,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,30,none,"S07_NSGA (seed=none, id=30)",False,175.0,0.2342380082148083,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,31,none,"S07_NSGA (seed=none, id=31)",False,175.0,0.2342380082148083,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,32,none,"S07_NSGA (seed=none, id=32)",False,173.0,0.2346049710729245,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,33,none,"S07_NSGA (seed=none, id=33)",False,173.0,0.2346049710729245,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,34,none,"S07_NSGA (seed=none, id=34)",False,166.0,0.2347797152910752,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,35,none,"S07_NSGA (seed=none, id=35)",False,166.0,0.2347797152910752,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,36,none,"S07_NSGA (seed=none, id=36)",False,165.0,0.2357058596472737,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,37,none,"S07_NSGA (seed=none, id=37)",False,165.0,0.2357058596472737,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,38,none,"S07_NSGA (seed=none, id=38)",False,164.0,0.2358806038654245,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,39,none,"S07_NSGA (seed=none, id=39)",False,161.0,0.2359505015526848,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,40,none,"S07_NSGA (seed=none, id=40)",False,161.0,0.2359505015526848,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,41,none,"S07_NSGA (seed=none, id=41)",False,160.0,0.2368416970652532,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,42,none,"S07_NSGA (seed=none, id=42)",False,160.0,0.2368416970652532,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,43,none,"S07_NSGA (seed=none, id=43)",False,157.0,0.2368941203306985,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,44,none,"S07_NSGA (seed=none, id=44)",False,157.0,0.2368941203306985,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,45,none,"S07_NSGA (seed=none, id=45)",False,153.0,0.2387114601994656,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,46,none,"S07_NSGA (seed=none, id=46)",False,153.0,0.2387114601994656,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,47,none,"S07_NSGA (seed=none, id=47)",False,152.0,0.2387638834649108,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,48,none,"S07_NSGA (seed=none, id=48)",False,151.0,0.2404239535373422,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,49,none,"S07_NSGA (seed=none, id=49)",False,151.0,0.2404239535373422,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,50,none,"S07_NSGA (seed=none, id=50)",False,150.0,0.241891804969808,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,51,none,"S07_NSGA (seed=none, id=51)",False,150.0,0.241891804969808,39.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,52,none,"S07_NSGA (seed=none, id=52)",False,181.0,0.2325080404551163,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,53,none,"S07_NSGA (seed=none, id=53)",False,180.0,0.2326827846732669,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,54,none,"S07_NSGA (seed=none, id=54)",False,175.0,0.2330672219531986,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,55,none,"S07_NSGA (seed=none, id=55)",False,175.0,0.2330672219531986,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,56,none,"S07_NSGA (seed=none, id=56)",False,174.0,0.2331021707968285,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,57,none,"S07_NSGA (seed=none, id=57)",False,174.0,0.2331021707968285,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,58,none,"S07_NSGA (seed=none, id=58)",False,169.0,0.234238008214808,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,59,none,"S07_NSGA (seed=none, id=59)",False,169.0,0.234238008214808,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,60,none,"S07_NSGA (seed=none, id=60)",False,166.0,0.2345700222292943,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,61,none,"S07_NSGA (seed=none, id=61)",False,166.0,0.2345700222292943,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,62,none,"S07_NSGA (seed=none, id=62)",False,165.0,0.2346923431819997,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,63,none,"S07_NSGA (seed=none, id=63)",False,162.0,0.2354612177418628,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,64,none,"S07_NSGA (seed=none, id=64)",False,159.0,0.2359854503963149,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,65,none,"S07_NSGA (seed=none, id=65)",False,155.0,0.237016441283404,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,66,none,"S07_NSGA (seed=none, id=66)",False,154.0,0.2372436087669998,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,67,none,"S07_NSGA (seed=none, id=67)",False,154.0,0.2372436087669998,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,68,none,"S07_NSGA (seed=none, id=68)",False,152.0,0.2374707762505956,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,69,none,"S07_NSGA (seed=none, id=69)",False,152.0,0.2374707762505956,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,70,none,"S07_NSGA (seed=none, id=70)",False,152.0,0.2374707762505956,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,71,none,"S07_NSGA (seed=none, id=71)",False,144.0,0.2379600600614174,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,72,none,"S07_NSGA (seed=none, id=72)",False,144.0,0.2379600600614174,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,73,none,"S07_NSGA (seed=none, id=73)",False,143.0,0.2384493438722394,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,74,none,"S07_NSGA (seed=none, id=74)",False,143.0,0.2384493438722394,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,75,none,"S07_NSGA (seed=none, id=75)",False,142.0,0.2386939857776503,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,76,none,"S07_NSGA (seed=none, id=76)",False,142.0,0.2386939857776503,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,77,none,"S07_NSGA (seed=none, id=77)",False,142.0,0.2386939857776503,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,78,none,"S07_NSGA (seed=none, id=78)",False,139.0,0.2437790425258352,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,79,none,"S07_NSGA (seed=none, id=79)",False,130.0,0.244757610147479,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,80,none,"S07_NSGA (seed=none, id=80)",False,129.0,0.2455789079727874,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,81,none,"S07_NSGA (seed=none, id=81)",False,129.0,0.2455789079727874,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,82,none,"S07_NSGA (seed=none, id=82)",False,128.0,0.2490038946485407,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,83,none,"S07_NSGA (seed=none, id=83)",False,128.0,0.2490038946485407,41.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,84,none,"S07_NSGA (seed=none, id=84)",False,128.0,0.2486019829467942,42.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,85,none,"S07_NSGA (seed=none, id=85)",False,128.0,0.2486019829467942,42.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,86,none,"S07_NSGA (seed=none, id=86)",False,179.0,0.2325080404551163,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,87,none,"S07_NSGA (seed=none, id=87)",False,179.0,0.2325080404551163,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,88,none,"S07_NSGA (seed=none, id=88)",False,174.0,0.2325604637205615,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,89,none,"S07_NSGA (seed=none, id=89)",False,174.0,0.2325604637205615,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,90,none,"S07_NSGA (seed=none, id=90)",False,168.0,0.2337661988258013,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,91,none,"S07_NSGA (seed=none, id=91)",False,168.0,0.2337661988258013,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,92,none,"S07_NSGA (seed=none, id=92)",False,158.0,0.2344127524329586,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,93,none,"S07_NSGA (seed=none, id=93)",False,153.0,0.2351641525710067,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,94,none,"S07_NSGA (seed=none, id=94)",False,153.0,0.2351641525710067,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,95,none,"S07_NSGA (seed=none, id=95)",False,150.0,0.2356010131163835,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,96,none,"S07_NSGA (seed=none, id=96)",False,150.0,0.2356010131163835,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,97,none,"S07_NSGA (seed=none, id=97)",False,143.0,0.2359330271308696,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,98,none,"S07_NSGA (seed=none, id=98)",False,140.0,0.2364747342071368,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,99,none,"S07_NSGA (seed=none, id=99)",False,140.0,0.2364747342071368,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,100,none,"S07_NSGA (seed=none, id=100)",False,138.0,0.239375488228438,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,101,none,"S07_NSGA (seed=none, id=101)",False,137.0,0.2398647720392599,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,102,none,"S07_NSGA (seed=none, id=102)",False,137.0,0.2398647720392599,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,103,none,"S07_NSGA (seed=none, id=103)",False,136.0,0.2413151490499104,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,104,none,"S07_NSGA (seed=none, id=104)",False,134.0,0.2435693494640543,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,105,none,"S07_NSGA (seed=none, id=105)",False,133.0,0.2441634798057666,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,106,none,"S07_NSGA (seed=none, id=106)",False,133.0,0.2441634798057666,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,107,none,"S07_NSGA (seed=none, id=107)",False,128.0,0.2477632106996709,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,108,none,"S07_NSGA (seed=none, id=108)",False,128.0,0.2477632106996709,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,109,none,"S07_NSGA (seed=none, id=109)",False,126.0,0.2488815736958353,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,110,none,"S07_NSGA (seed=none, id=110)",False,126.0,0.2488815736958353,43.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,111,none,"S07_NSGA (seed=none, id=111)",False,161.0,0.2341331616839175,44.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,112,none,"S07_NSGA (seed=none, id=112)",False,136.0,0.2400220418355953,44.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,113,none,"S07_NSGA (seed=none, id=113)",False,134.0,0.2421189724534036,44.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,114,none,"S07_NSGA (seed=none, id=114)",False,125.0,0.251118299688164,44.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,115,none,"S07_NSGA (seed=none, id=115)",False,172.0,0.2326303614078217,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,116,none,"S07_NSGA (seed=none, id=116)",False,168.0,0.2336089290294656,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,117,none,"S07_NSGA (seed=none, id=117)",False,168.0,0.2336089290294656,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,118,none,"S07_NSGA (seed=none, id=118)",False,157.0,0.2341681105275478,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,119,none,"S07_NSGA (seed=none, id=119)",False,135.0,0.2391308463230269,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,120,none,"S07_NSGA (seed=none, id=120)",False,135.0,0.2391308463230269,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,121,none,"S07_NSGA (seed=none, id=121)",False,134.0,0.2415947397989516,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,122,none,"S07_NSGA (seed=none, id=122)",False,133.0,0.2418393817043625,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,123,none,"S07_NSGA (seed=none, id=123)",False,131.0,0.2426432051078557,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,124,none,"S07_NSGA (seed=none, id=124)",False,131.0,0.2426432051078557,45.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,125,none,"S07_NSGA (seed=none, id=125)",False,176.0,0.2309702913353902,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,126,none,"S07_NSGA (seed=none, id=126)",False,176.0,0.2309702913353902,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,127,none,"S07_NSGA (seed=none, id=127)",False,175.0,0.2321236031751848,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,128,none,"S07_NSGA (seed=none, id=128)",False,171.0,0.2322459241278902,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,129,none,"S07_NSGA (seed=none, id=129)",False,170.0,0.232420668346041,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,130,none,"S07_NSGA (seed=none, id=130)",False,170.0,0.232420668346041,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,131,none,"S07_NSGA (seed=none, id=131)",False,169.0,0.2331720684840888,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,132,none,"S07_NSGA (seed=none, id=132)",False,169.0,0.2331720684840888,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,133,none,"S07_NSGA (seed=none, id=133)",False,162.0,0.2331720684840889,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,134,none,"S07_NSGA (seed=none, id=134)",False,161.0,0.2333642871240546,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,135,none,"S07_NSGA (seed=none, id=135)",False,157.0,0.2341681105275478,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,136,none,"S07_NSGA (seed=none, id=136)",False,147.0,0.2346923431819998,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,137,none,"S07_NSGA (seed=none, id=137)",False,146.0,0.2349195106655957,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,138,none,"S07_NSGA (seed=none, id=138)",False,146.0,0.2349195106655957,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,139,none,"S07_NSGA (seed=none, id=139)",False,139.0,0.2351292037273765,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,140,none,"S07_NSGA (seed=none, id=140)",False,139.0,0.2351292037273765,46.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,141,none,"S07_NSGA (seed=none, id=141)",False,175.0,0.2317741147388834,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,142,none,"S07_NSGA (seed=none, id=142)",False,166.0,0.2322459241278902,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,143,none,"S07_NSGA (seed=none, id=143)",False,166.0,0.2322459241278902,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,144,none,"S07_NSGA (seed=none, id=144)",False,165.0,0.2322633985497052,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,145,none,"S07_NSGA (seed=none, id=145)",False,165.0,0.2322633985497052,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,146,none,"S07_NSGA (seed=none, id=146)",False,163.0,0.2328225800477875,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,147,none,"S07_NSGA (seed=none, id=147)",False,163.0,0.2328225800477875,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,148,none,"S07_NSGA (seed=none, id=148)",False,155.0,0.2345350733856642,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,149,none,"S07_NSGA (seed=none, id=149)",False,134.0,0.2397075022429243,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,150,none,"S07_NSGA (seed=none, id=150)",False,134.0,0.2397075022429243,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,151,none,"S07_NSGA (seed=none, id=151)",False,125.0,0.2504717460810065,48.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,152,none,"S07_NSGA (seed=none, id=152)",False,138.0,0.2377678414214516,49.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,153,none,"S07_NSGA (seed=none, id=153)",False,138.0,0.2377678414214516,49.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,154,none,"S07_NSGA (seed=none, id=154)",False,134.0,0.2381348042795681,49.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,155,none,"S07_NSGA (seed=none, id=155)",False,168.0,0.2310052401790205,50.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,156,none,"S07_NSGA (seed=none, id=156)",False,159.0,0.2330147986877533,50.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,157,none,"S07_NSGA (seed=none, id=157)",False,158.0,0.2337661988258011,50.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,158,none,"S07_NSGA (seed=none, id=158)",False,155.0,0.2342904314802533,50.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,159,none,"S07_NSGA (seed=none, id=159)",False,171.0,0.2307431238517944,52.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,160,none,"S07_NSGA (seed=none, id=160)",False,171.0,0.2307431238517944,52.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,161,none,"S07_NSGA (seed=none, id=161)",False,167.0,0.2314595751462122,52.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,162,none,"S07_NSGA (seed=none, id=162)",False,167.0,0.2314595751462122,52.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,163,none,"S07_NSGA (seed=none, id=163)",False,156.0,0.2342554826366231,52.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,164,none,"S07_NSGA (seed=none, id=164)",False,156.0,0.2342554826366231,52.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,165,none,"S07_NSGA (seed=none, id=165)",False,209.0,0.2307081750081643,92.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,166,none,"S07_NSGA (seed=none, id=166)",False,209.0,0.2307081750081643,92.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,167,none,"S07_NSGA (seed=none, id=167)",False,209.0,0.2300965702446368,94.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+E0,S07_NSGA,7,front_point,168,none,"S07_NSGA (seed=none, id=168)",False,209.0,0.2300965702446368,94.0,,,,S05_GS_SDSU,0,-inf,-inf,-inf,True
+DES,S08_DES,8,singleton,0,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,1,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,2,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,3,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,4,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,5,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,6,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,7,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,8,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,9,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,10,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,11,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,12,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,13,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,14,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,15,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,16,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,17,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,18,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,19,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,20,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,21,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,22,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,23,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,24,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,25,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,26,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,27,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,28,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,29,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,30,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,31,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,32,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,33,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,34,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,35,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,36,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,37,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,38,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,39,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,40,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,41,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,42,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,43,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,44,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,45,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,46,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,47,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,48,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,49,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,50,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,51,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,52,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,53,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,54,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,55,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,56,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,57,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,58,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,59,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,60,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,61,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,62,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,63,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,64,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,65,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,66,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,67,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,68,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,69,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,70,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,71,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,72,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,73,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,74,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,75,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,76,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,77,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,78,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,79,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,80,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,81,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,82,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,83,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,84,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,85,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,86,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,87,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,88,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,89,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,90,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,91,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,92,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,93,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,94,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,95,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,96,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,97,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,98,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,99,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,100,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,101,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,102,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,103,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,104,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,105,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,106,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,107,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,108,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,109,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,110,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,111,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,112,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,113,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,114,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,115,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,116,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,117,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,118,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,119,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,120,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,121,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,122,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,123,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,124,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,125,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,126,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,127,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,128,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,129,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,130,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,131,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,132,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,133,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,134,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,135,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,136,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,137,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,138,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,139,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,140,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,141,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,142,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,143,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,144,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,145,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,146,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,147,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,148,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,149,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,150,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,151,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,152,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,153,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,154,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,155,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,156,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,157,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,158,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,159,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,160,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,161,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,162,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,163,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,164,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,165,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,166,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,167,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,168,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,169,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,170,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,171,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,172,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,173,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,174,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,175,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,176,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,177,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,178,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,179,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,180,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,181,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,182,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,183,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,184,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,185,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,186,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,187,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,188,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,189,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,190,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,191,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,192,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,193,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,194,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,195,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,196,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,197,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,198,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,199,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,200,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,201,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,202,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,203,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,204,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,205,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,206,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,207,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,208,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,209,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,210,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,211,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,212,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,213,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,214,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,215,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,216,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,217,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,218,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,219,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,220,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,221,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,222,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,223,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,224,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,225,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,226,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,227,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,228,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,229,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,230,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,231,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,232,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,233,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,234,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,235,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,236,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,237,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,238,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,239,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,240,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,241,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,242,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,243,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,244,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,245,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,246,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,247,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,248,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,249,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,250,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,251,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,252,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,253,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,254,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,255,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,256,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,257,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,258,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,259,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,260,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,261,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,262,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,263,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,264,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,265,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,266,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,267,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,268,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,269,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,270,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,271,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,272,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,273,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,274,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,275,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,276,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,277,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,278,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,279,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,280,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,281,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,282,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,283,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,284,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,285,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,286,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,287,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,288,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,289,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,290,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,291,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,292,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,293,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,294,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,295,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,296,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,297,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,298,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,299,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,300,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,301,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,302,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,303,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,304,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,305,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,306,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,307,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,308,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,309,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,310,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,311,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,312,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,313,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,314,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,315,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,316,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,317,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,318,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,319,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,320,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,321,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,322,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,323,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,324,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,325,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,326,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,327,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,328,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,329,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,330,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,331,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,332,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,333,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,334,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,335,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,336,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,337,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,338,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,339,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,340,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,341,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,342,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,343,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,344,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,345,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,346,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,347,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,348,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,349,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,350,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,351,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,352,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,353,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,354,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,355,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,356,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,357,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,358,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,359,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,360,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,361,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,362,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,363,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,364,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,365,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,366,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,367,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,368,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,369,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,370,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,371,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False
+DES,S08_DES,8,singleton,372,none,Step-08 DES,True,,,,,,,S08_DES,0,,,,False

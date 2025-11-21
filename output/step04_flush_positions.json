@@ -1,0 +1,12 @@
+{
+  "booth1": {
+    "flush_positions": [],
+    "num_purges": 0,
+    "n_jobs": 91
+  },
+  "booth2": {
+    "flush_positions": [],
+    "num_purges": 0,
+    "n_jobs": 92
+  }
+}

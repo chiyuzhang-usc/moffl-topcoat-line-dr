@@ -1,0 +1,62 @@
+{
+  "step_id": "step09_analysis",
+  "dataset_dir": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\dataset",
+  "adjacency_rules_path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\dataset\\adjacency_rules.csv",
+  "adjacency_rules_sha256": "b8a652432c9656fefeeac14e2237a8a89ae766ae5eb9848ded9974b02bc9ead2",
+  "inputs": {
+    "step02_paint_seed": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step02_paint_seed.csv",
+      "exists": true,
+      "sha256": "11e072a341816ae7f6b05b99ecbcefe4d8d06923093ac54e765fc8ad4707cdd7"
+    },
+    "step03_booth1": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_booth1.csv",
+      "exists": true,
+      "sha256": "354d58856be6c488ddcc20c46140ab83a5da09a5a912dda287fec31fec5b6eb5"
+    },
+    "step03_booth2": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_booth2.csv",
+      "exists": true,
+      "sha256": "3754125d7f34c12fe9320604a15ee34cd933a56c995c6801f486de6652282826"
+    },
+    "step04_booth1_sdsu": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step04_booth1_sdsu.csv",
+      "exists": true,
+      "sha256": "12ed3f6ee1cffde98c3706da2681624e2d0566c2eda3627b4e9e532cf0a69e9c"
+    },
+    "step04_booth2_sdsu": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step04_booth2_sdsu.csv",
+      "exists": true,
+      "sha256": "9d8e6e0c10d9cd39761dd970381acac70fa4a7163b20c6f8529f3adacbc683d0"
+    },
+    "step05_global_line": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step05_global_line.csv",
+      "exists": true,
+      "sha256": "2577fab0cce194fff8670b5fab73b2de4d3ff9df5c446b490e8fcaec752bdefd"
+    },
+    "step06_opt_glob": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step06_opt_global.csv",
+      "exists": false,
+      "sha256": null
+    },
+    "step07_pareto": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step07_pareto.csv",
+      "exists": true,
+      "sha256": "723732722d219015987a6ae4f7c6b3a7544ebe4ae0351b84988208d2cfdf27f0"
+    },
+    "step08_des_metrics": {
+      "path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step08_des_metrics.csv",
+      "exists": true,
+      "sha256": "53e3dc67a5acea376e853c1f6d301cba957b37cab9fc03895eb5be2cd62d9e2d"
+    }
+  },
+  "step09_metrics_path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step09_metrics.csv",
+  "step09_metrics_sha256": "156fb3ba2253ee1249a8d17a8986e8dc189f24268659aec8d76b4d88d0a4ba24",
+  "step09_front_summary_path": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step09_experiment_matrix.csv",
+  "step09_front_summary_sha256": "97e140be0d941d4385325228d405d0ff292ac3967e4bf975f4e3ec1ee95e424c",
+  "num_rows": 543,
+  "exp_ids": [
+    "DES",
+    "E0"
+  ]
+}

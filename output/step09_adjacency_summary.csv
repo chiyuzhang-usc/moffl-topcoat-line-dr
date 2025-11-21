@@ -1,0 +1,7 @@
+step_id,stream_id,has_data,c2_has_violation,c2_total_violations,c2_first_violation_index,c2_first_violation_from_part,c2_first_violation_to_part,longest_run,mean_run,std_run
+STEP02,feeder,True,False,0,,,,,,
+STEP03,booth1,True,True,2,44.0,threshold_b,threshold_c,,,
+STEP03,booth2,True,True,3,41.0,threshold_a,threshold_b,,,
+STEP04,booth1_sdsu,True,True,2,36.0,threshold_b,threshold_c,,,
+STEP04,booth2_sdsu,True,True,5,33.0,threshold_a,threshold_b,,,
+STEP05,global_line,True,False,0,,,,,,

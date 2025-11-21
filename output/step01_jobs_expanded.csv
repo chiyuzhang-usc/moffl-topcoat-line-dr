@@ -1,0 +1,184 @@
+part_id,part_name,topcoat_name,topcoat_no,color_code,quantity,original,job_id,prov_row_index,prov_seq_in_row,part_part_name,part_part_category,part_part_type,part_part_no,topcoat_topcoat_name,topcoat_topcoat_no,topcoat_topcoat_family
+upper_grille_a,Upper grille A,Iridium Silver,8,C_IRIDIUM_SILVER,2,135,J000001,1,1,Upper grille A,Upper grille,A,1,Iridium Silver,8,SILVER
+upper_grille_a,Upper grille A,Iridium Silver,8,C_IRIDIUM_SILVER,2,135,J000002,1,2,Upper grille A,Upper grille,A,1,Iridium Silver,8,SILVER
+upper_grille_b,Upper grille B,Iridium Silver,8,C_IRIDIUM_SILVER,2,150,J000003,2,1,Upper grille B,Upper grille,B,2,Iridium Silver,8,SILVER
+upper_grille_b,Upper grille B,Iridium Silver,8,C_IRIDIUM_SILVER,2,150,J000004,2,2,Upper grille B,Upper grille,B,2,Iridium Silver,8,SILVER
+middle_spoiler_a,Middle spoiler A,Shining Blue,6,C_SHINING_BLUE,1,39,J000005,3,1,Middle spoiler A,Middle spoiler,A,3,Shining Blue,6,BLUE
+middle_spoiler_a,Middle spoiler A,Obsidian Black,10,C_OBSIDIAN_BLACK,1,72,J000006,4,1,Middle spoiler A,Middle spoiler,A,3,Obsidian Black,10,BLACK
+middle_spoiler_a,Middle spoiler A,Polar White,1,C_POLAR_WHITE,2,149,J000007,5,1,Middle spoiler A,Middle spoiler,A,3,Polar White,1,WHITE
+middle_spoiler_a,Middle spoiler A,Polar White,1,C_POLAR_WHITE,2,149,J000008,5,2,Middle spoiler A,Middle spoiler,A,3,Polar White,1,WHITE
+middle_spoiler_a,Middle spoiler A,Milan Silver,7,C_MILAN_SILVER,1,76,J000009,6,1,Middle spoiler A,Middle spoiler,A,3,Milan Silver,7,SILVER
+front_bumper_a,Front bumper A,Shining Blue,6,C_SHINING_BLUE,3,249,J000010,7,1,Front bumper A,Front bumper,A,4,Shining Blue,6,BLUE
+front_bumper_a,Front bumper A,Shining Blue,6,C_SHINING_BLUE,3,249,J000011,7,2,Front bumper A,Front bumper,A,4,Shining Blue,6,BLUE
+front_bumper_a,Front bumper A,Shining Blue,6,C_SHINING_BLUE,3,249,J000012,7,3,Front bumper A,Front bumper,A,4,Shining Blue,6,BLUE
+front_bumper_a,Front bumper A,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,80,J000013,8,1,Front bumper A,Front bumper,A,4,Sapphire Blue,5,BLUE
+front_bumper_a,Front bumper A,Obsidian Black,10,C_OBSIDIAN_BLACK,3,212,J000014,9,1,Front bumper A,Front bumper,A,4,Obsidian Black,10,BLACK
+front_bumper_a,Front bumper A,Obsidian Black,10,C_OBSIDIAN_BLACK,3,212,J000015,9,2,Front bumper A,Front bumper,A,4,Obsidian Black,10,BLACK
+front_bumper_a,Front bumper A,Obsidian Black,10,C_OBSIDIAN_BLACK,3,212,J000016,9,3,Front bumper A,Front bumper,A,4,Obsidian Black,10,BLACK
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000017,10,1,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000018,10,2,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000019,10,3,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000020,10,4,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000021,10,5,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000022,10,6,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000023,10,7,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000024,10,8,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Polar White,1,C_POLAR_WHITE,9,885,J000025,10,9,Front bumper A,Front bumper,A,4,Polar White,1,WHITE
+front_bumper_a,Front bumper A,Milan Silver,7,C_MILAN_SILVER,1,84,J000026,11,1,Front bumper A,Front bumper,A,4,Milan Silver,7,SILVER
+front_bumper_a,Front bumper A,Iridium Silver,8,C_IRIDIUM_SILVER,1,40,J000027,12,1,Front bumper A,Front bumper,A,4,Iridium Silver,8,SILVER
+front_bumper_b,Front bumper B,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,27,J000028,13,1,Front bumper B,Front bumper,B,5,Sapphire Blue,5,BLUE
+front_bumper_b,Front bumper B,Polar White,1,C_POLAR_WHITE,1,28,J000029,14,1,Front bumper B,Front bumper,B,5,Polar White,1,WHITE
+front_bumper_b,Front bumper B,Iridium Silver,8,C_IRIDIUM_SILVER,1,24,J000030,15,1,Front bumper B,Front bumper,B,5,Iridium Silver,8,SILVER
+front_bumper_c,Front bumper C,Shining Blue,6,C_SHINING_BLUE,1,12,J000031,16,1,Front bumper C,Front bumper,C,6,Shining Blue,6,BLUE
+front_bumper_c,Front bumper C,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,3,J000032,17,1,Front bumper C,Front bumper,C,6,Sapphire Blue,5,BLUE
+front_bumper_c,Front bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,5,424,J000033,18,1,Front bumper C,Front bumper,C,6,Obsidian Black,10,BLACK
+front_bumper_c,Front bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,5,424,J000034,18,2,Front bumper C,Front bumper,C,6,Obsidian Black,10,BLACK
+front_bumper_c,Front bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,5,424,J000035,18,3,Front bumper C,Front bumper,C,6,Obsidian Black,10,BLACK
+front_bumper_c,Front bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,5,424,J000036,18,4,Front bumper C,Front bumper,C,6,Obsidian Black,10,BLACK
+front_bumper_c,Front bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,5,424,J000037,18,5,Front bumper C,Front bumper,C,6,Obsidian Black,10,BLACK
+front_bumper_c,Front bumper C,Diamond White,2,C_DIAMOND_WHITE,1,78,J000038,19,1,Front bumper C,Front bumper,C,6,Diamond White,2,WHITE
+front_bumper_d,Front bumper D,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,15,J000039,20,1,Front bumper D,Front bumper,D,7,Sapphire Blue,5,BLUE
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000040,21,1,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000041,21,2,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000042,21,3,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000043,21,4,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000044,21,5,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000045,21,6,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000046,21,7,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000047,21,8,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000048,21,9,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_d,Front bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,10,992,J000049,21,10,Front bumper D,Front bumper,D,7,Obsidian Black,10,BLACK
+front_bumper_e,Front bumper E,Shining Blue,6,C_SHINING_BLUE,2,115,J000050,22,1,Front bumper E,Front bumper,E,8,Shining Blue,6,BLUE
+front_bumper_e,Front bumper E,Shining Blue,6,C_SHINING_BLUE,2,115,J000051,22,2,Front bumper E,Front bumper,E,8,Shining Blue,6,BLUE
+front_bumper_e,Front bumper E,Ruby Red,3,C_RUBY_RED,1,99,J000052,23,1,Front bumper E,Front bumper,E,8,Ruby Red,3,RED
+front_bumper_e,Front bumper E,Obsidian Black,10,C_OBSIDIAN_BLACK,4,373,J000053,24,1,Front bumper E,Front bumper,E,8,Obsidian Black,10,BLACK
+front_bumper_e,Front bumper E,Obsidian Black,10,C_OBSIDIAN_BLACK,4,373,J000054,24,2,Front bumper E,Front bumper,E,8,Obsidian Black,10,BLACK
+front_bumper_e,Front bumper E,Obsidian Black,10,C_OBSIDIAN_BLACK,4,373,J000055,24,3,Front bumper E,Front bumper,E,8,Obsidian Black,10,BLACK
+front_bumper_e,Front bumper E,Obsidian Black,10,C_OBSIDIAN_BLACK,4,373,J000056,24,4,Front bumper E,Front bumper,E,8,Obsidian Black,10,BLACK
+front_bumper_e,Front bumper E,Milan Silver,7,C_MILAN_SILVER,1,75,J000057,25,1,Front bumper E,Front bumper,E,8,Milan Silver,7,SILVER
+front_bumper_e,Front bumper E,Diamond White,2,C_DIAMOND_WHITE,5,475,J000058,26,1,Front bumper E,Front bumper,E,8,Diamond White,2,WHITE
+front_bumper_e,Front bumper E,Diamond White,2,C_DIAMOND_WHITE,5,475,J000059,26,2,Front bumper E,Front bumper,E,8,Diamond White,2,WHITE
+front_bumper_e,Front bumper E,Diamond White,2,C_DIAMOND_WHITE,5,475,J000060,26,3,Front bumper E,Front bumper,E,8,Diamond White,2,WHITE
+front_bumper_e,Front bumper E,Diamond White,2,C_DIAMOND_WHITE,5,475,J000061,26,4,Front bumper E,Front bumper,E,8,Diamond White,2,WHITE
+front_bumper_e,Front bumper E,Diamond White,2,C_DIAMOND_WHITE,5,475,J000062,26,5,Front bumper E,Front bumper,E,8,Diamond White,2,WHITE
+front_bumper_f,Front bumper F,Shining Blue,6,C_SHINING_BLUE,2,128,J000063,27,1,Front bumper F,Front bumper,F,9,Shining Blue,6,BLUE
+front_bumper_f,Front bumper F,Shining Blue,6,C_SHINING_BLUE,2,128,J000064,27,2,Front bumper F,Front bumper,F,9,Shining Blue,6,BLUE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000065,28,1,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000066,28,2,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000067,28,3,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000068,28,4,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000069,28,5,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000070,28,6,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000071,28,7,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000072,28,8,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000073,28,9,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_f,Front bumper F,Polar White,1,C_POLAR_WHITE,10,961,J000074,28,10,Front bumper F,Front bumper,F,9,Polar White,1,WHITE
+front_bumper_g,Front bumper G,Universe Black,9,C_UNIVERSE_BLACK,1,43,J000075,29,1,Front bumper G,Front bumper,G,10,Universe Black,9,BLACK
+front_bumper_g,Front bumper G,Milan Silver,7,C_MILAN_SILVER,1,20,J000076,30,1,Front bumper G,Front bumper,G,10,Milan Silver,7,SILVER
+front_bumper_g,Front bumper G,Diamond White,2,C_DIAMOND_WHITE,2,121,J000077,31,1,Front bumper G,Front bumper,G,10,Diamond White,2,WHITE
+front_bumper_g,Front bumper G,Diamond White,2,C_DIAMOND_WHITE,2,121,J000078,31,2,Front bumper G,Front bumper,G,10,Diamond White,2,WHITE
+rear_bumper_a,Rear bumper A,Shining Blue,6,C_SHINING_BLUE,2,174,J000079,32,1,Rear bumper A,Rear bumper,A,11,Shining Blue,6,BLUE
+rear_bumper_a,Rear bumper A,Shining Blue,6,C_SHINING_BLUE,2,174,J000080,32,2,Rear bumper A,Rear bumper,A,11,Shining Blue,6,BLUE
+rear_bumper_a,Rear bumper A,Ruby Red,3,C_RUBY_RED,4,372,J000081,33,1,Rear bumper A,Rear bumper,A,11,Ruby Red,3,RED
+rear_bumper_a,Rear bumper A,Ruby Red,3,C_RUBY_RED,4,372,J000082,33,2,Rear bumper A,Rear bumper,A,11,Ruby Red,3,RED
+rear_bumper_a,Rear bumper A,Ruby Red,3,C_RUBY_RED,4,372,J000083,33,3,Rear bumper A,Rear bumper,A,11,Ruby Red,3,RED
+rear_bumper_a,Rear bumper A,Ruby Red,3,C_RUBY_RED,4,372,J000084,33,4,Rear bumper A,Rear bumper,A,11,Ruby Red,3,RED
+rear_bumper_a,Rear bumper A,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,3,J000085,34,1,Rear bumper A,Rear bumper,A,11,Sapphire Blue,5,BLUE
+rear_bumper_a,Rear bumper A,Polar White,1,C_POLAR_WHITE,6,565,J000086,35,1,Rear bumper A,Rear bumper,A,11,Polar White,1,WHITE
+rear_bumper_a,Rear bumper A,Polar White,1,C_POLAR_WHITE,6,565,J000087,35,2,Rear bumper A,Rear bumper,A,11,Polar White,1,WHITE
+rear_bumper_a,Rear bumper A,Polar White,1,C_POLAR_WHITE,6,565,J000088,35,3,Rear bumper A,Rear bumper,A,11,Polar White,1,WHITE
+rear_bumper_a,Rear bumper A,Polar White,1,C_POLAR_WHITE,6,565,J000089,35,4,Rear bumper A,Rear bumper,A,11,Polar White,1,WHITE
+rear_bumper_a,Rear bumper A,Polar White,1,C_POLAR_WHITE,6,565,J000090,35,5,Rear bumper A,Rear bumper,A,11,Polar White,1,WHITE
+rear_bumper_a,Rear bumper A,Polar White,1,C_POLAR_WHITE,6,565,J000091,35,6,Rear bumper A,Rear bumper,A,11,Polar White,1,WHITE
+rear_bumper_a,Rear bumper A,Iridium Silver,8,C_IRIDIUM_SILVER,1,35,J000092,36,1,Rear bumper A,Rear bumper,A,11,Iridium Silver,8,SILVER
+rear_bumper_b,Rear bumper B,Milan Silver,7,C_MILAN_SILVER,1,75,J000093,37,1,Rear bumper B,Rear bumper,B,12,Milan Silver,7,SILVER
+rear_bumper_c,Rear bumper C,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,85,J000094,38,1,Rear bumper C,Rear bumper,C,13,Sapphire Blue,5,BLUE
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000095,39,1,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000096,39,2,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000097,39,3,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000098,39,4,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000099,39,5,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000100,39,6,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000101,39,7,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000102,39,8,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Obsidian Black,10,C_OBSIDIAN_BLACK,9,808,J000103,39,9,Rear bumper C,Rear bumper,C,13,Obsidian Black,10,BLACK
+rear_bumper_c,Rear bumper C,Diamond White,2,C_DIAMOND_WHITE,1,87,J000104,40,1,Rear bumper C,Rear bumper,C,13,Diamond White,2,WHITE
+rear_bumper_d,Rear bumper D,Obsidian Black,10,C_OBSIDIAN_BLACK,1,3,J000105,41,1,Rear bumper D,Rear bumper,D,14,Obsidian Black,10,BLACK
+rear_bumper_d,Rear bumper D,Iridium Silver,8,C_IRIDIUM_SILVER,1,11,J000106,42,1,Rear bumper D,Rear bumper,D,14,Iridium Silver,8,SILVER
+rear_bumper_e,Rear bumper E,Polar White,1,C_POLAR_WHITE,1,6,J000107,43,1,Rear bumper E,Rear bumper,E,15,Polar White,1,WHITE
+rear_bumper_f,Rear bumper F,Shining Blue,6,C_SHINING_BLUE,2,115,J000108,44,1,Rear bumper F,Rear bumper,F,16,Shining Blue,6,BLUE
+rear_bumper_f,Rear bumper F,Shining Blue,6,C_SHINING_BLUE,2,115,J000109,44,2,Rear bumper F,Rear bumper,F,16,Shining Blue,6,BLUE
+rear_bumper_f,Rear bumper F,Ruby Red,3,C_RUBY_RED,2,101,J000110,45,1,Rear bumper F,Rear bumper,F,16,Ruby Red,3,RED
+rear_bumper_f,Rear bumper F,Ruby Red,3,C_RUBY_RED,2,101,J000111,45,2,Rear bumper F,Rear bumper,F,16,Ruby Red,3,RED
+rear_bumper_f,Rear bumper F,Obsidian Black,10,C_OBSIDIAN_BLACK,3,278,J000112,46,1,Rear bumper F,Rear bumper,F,16,Obsidian Black,10,BLACK
+rear_bumper_f,Rear bumper F,Obsidian Black,10,C_OBSIDIAN_BLACK,3,278,J000113,46,2,Rear bumper F,Rear bumper,F,16,Obsidian Black,10,BLACK
+rear_bumper_f,Rear bumper F,Obsidian Black,10,C_OBSIDIAN_BLACK,3,278,J000114,46,3,Rear bumper F,Rear bumper,F,16,Obsidian Black,10,BLACK
+rear_bumper_f,Rear bumper F,Milan Silver,7,C_MILAN_SILVER,1,41,J000115,47,1,Rear bumper F,Rear bumper,F,16,Milan Silver,7,SILVER
+rear_bumper_f,Rear bumper F,Diamond White,2,C_DIAMOND_WHITE,4,323,J000116,48,1,Rear bumper F,Rear bumper,F,16,Diamond White,2,WHITE
+rear_bumper_f,Rear bumper F,Diamond White,2,C_DIAMOND_WHITE,4,323,J000117,48,2,Rear bumper F,Rear bumper,F,16,Diamond White,2,WHITE
+rear_bumper_f,Rear bumper F,Diamond White,2,C_DIAMOND_WHITE,4,323,J000118,48,3,Rear bumper F,Rear bumper,F,16,Diamond White,2,WHITE
+rear_bumper_f,Rear bumper F,Diamond White,2,C_DIAMOND_WHITE,4,323,J000119,48,4,Rear bumper F,Rear bumper,F,16,Diamond White,2,WHITE
+rear_bumper_g,Rear bumper G,Milan Silver,7,C_MILAN_SILVER,1,79,J000120,49,1,Rear bumper G,Rear bumper,G,17,Milan Silver,7,SILVER
+rear_bumper_g,Rear bumper G,Diamond White,2,C_DIAMOND_WHITE,5,427,J000121,50,1,Rear bumper G,Rear bumper,G,17,Diamond White,2,WHITE
+rear_bumper_g,Rear bumper G,Diamond White,2,C_DIAMOND_WHITE,5,427,J000122,50,2,Rear bumper G,Rear bumper,G,17,Diamond White,2,WHITE
+rear_bumper_g,Rear bumper G,Diamond White,2,C_DIAMOND_WHITE,5,427,J000123,50,3,Rear bumper G,Rear bumper,G,17,Diamond White,2,WHITE
+rear_bumper_g,Rear bumper G,Diamond White,2,C_DIAMOND_WHITE,5,427,J000124,50,4,Rear bumper G,Rear bumper,G,17,Diamond White,2,WHITE
+rear_bumper_g,Rear bumper G,Diamond White,2,C_DIAMOND_WHITE,5,427,J000125,50,5,Rear bumper G,Rear bumper,G,17,Diamond White,2,WHITE
+shell_a,Shell A,Shining Blue,6,C_SHINING_BLUE,1,13,J000126,51,1,Shell A,Shell,A,18,Shining Blue,6,BLUE
+shell_a,Shell A,Ruby Red,3,C_RUBY_RED,1,7,J000127,52,1,Shell A,Shell,A,18,Ruby Red,3,RED
+shell_a,Shell A,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,18,J000128,53,1,Shell A,Shell,A,18,Sapphire Blue,5,BLUE
+shell_a,Shell A,Polar White,1,C_POLAR_WHITE,1,87,J000129,54,1,Shell A,Shell,A,18,Polar White,1,WHITE
+shell_a,Shell A,Denim Blue,4,C_DENIM_BLUE,1,6,J000130,55,1,Shell A,Shell,A,18,Denim Blue,4,BLUE
+shell_a,Shell A,Milan Silver,7,C_MILAN_SILVER,1,3,J000131,56,1,Shell A,Shell,A,18,Milan Silver,7,SILVER
+rim_decoration_a,Rim decoration A,Shining Blue,6,C_SHINING_BLUE,1,51,J000132,57,1,Rim decoration A,Rim decoration,A,19,Shining Blue,6,BLUE
+rim_decoration_a,Rim decoration A,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,6,J000133,58,1,Rim decoration A,Rim decoration,A,19,Sapphire Blue,5,BLUE
+rim_decoration_a,Rim decoration A,Polar White,1,C_POLAR_WHITE,2,168,J000134,59,1,Rim decoration A,Rim decoration,A,19,Polar White,1,WHITE
+rim_decoration_a,Rim decoration A,Polar White,1,C_POLAR_WHITE,2,168,J000135,59,2,Rim decoration A,Rim decoration,A,19,Polar White,1,WHITE
+rim_decoration_b,Rim decoration B,Denim Blue,4,C_DENIM_BLUE,1,4,J000136,60,1,Rim decoration B,Rim decoration,B,20,Denim Blue,4,BLUE
+rim_decoration_b,Rim decoration B,Diamond White,2,C_DIAMOND_WHITE,1,26,J000137,61,1,Rim decoration B,Rim decoration,B,20,Diamond White,2,WHITE
+threshold_a,Threshold A,Shining Blue,6,C_SHINING_BLUE,3,204,J000138,62,1,Threshold A,Threshold,A,21,Shining Blue,6,BLUE
+threshold_a,Threshold A,Shining Blue,6,C_SHINING_BLUE,3,204,J000139,62,2,Threshold A,Threshold,A,21,Shining Blue,6,BLUE
+threshold_a,Threshold A,Shining Blue,6,C_SHINING_BLUE,3,204,J000140,62,3,Threshold A,Threshold,A,21,Shining Blue,6,BLUE
+threshold_a,Threshold A,Ruby Red,3,C_RUBY_RED,4,351,J000141,63,1,Threshold A,Threshold,A,21,Ruby Red,3,RED
+threshold_a,Threshold A,Ruby Red,3,C_RUBY_RED,4,351,J000142,63,2,Threshold A,Threshold,A,21,Ruby Red,3,RED
+threshold_a,Threshold A,Ruby Red,3,C_RUBY_RED,4,351,J000143,63,3,Threshold A,Threshold,A,21,Ruby Red,3,RED
+threshold_a,Threshold A,Ruby Red,3,C_RUBY_RED,4,351,J000144,63,4,Threshold A,Threshold,A,21,Ruby Red,3,RED
+threshold_a,Threshold A,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,86,J000145,64,1,Threshold A,Threshold,A,21,Sapphire Blue,5,BLUE
+threshold_a,Threshold A,Obsidian Black,10,C_OBSIDIAN_BLACK,1,47,J000146,65,1,Threshold A,Threshold,A,21,Obsidian Black,10,BLACK
+threshold_a,Threshold A,Polar White,1,C_POLAR_WHITE,6,505,J000147,66,1,Threshold A,Threshold,A,21,Polar White,1,WHITE
+threshold_a,Threshold A,Polar White,1,C_POLAR_WHITE,6,505,J000148,66,2,Threshold A,Threshold,A,21,Polar White,1,WHITE
+threshold_a,Threshold A,Polar White,1,C_POLAR_WHITE,6,505,J000149,66,3,Threshold A,Threshold,A,21,Polar White,1,WHITE
+threshold_a,Threshold A,Polar White,1,C_POLAR_WHITE,6,505,J000150,66,4,Threshold A,Threshold,A,21,Polar White,1,WHITE
+threshold_a,Threshold A,Polar White,1,C_POLAR_WHITE,6,505,J000151,66,5,Threshold A,Threshold,A,21,Polar White,1,WHITE
+threshold_a,Threshold A,Polar White,1,C_POLAR_WHITE,6,505,J000152,66,6,Threshold A,Threshold,A,21,Polar White,1,WHITE
+threshold_a,Threshold A,Milan Silver,7,C_MILAN_SILVER,1,83,J000153,67,1,Threshold A,Threshold,A,21,Milan Silver,7,SILVER
+threshold_a,Threshold A,Iridium Silver,8,C_IRIDIUM_SILVER,1,10,J000154,68,1,Threshold A,Threshold,A,21,Iridium Silver,8,SILVER
+threshold_b,Threshold B,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,94,J000155,69,1,Threshold B,Threshold,B,22,Sapphire Blue,5,BLUE
+threshold_b,Threshold B,Obsidian Black,10,C_OBSIDIAN_BLACK,6,579,J000156,70,1,Threshold B,Threshold,B,22,Obsidian Black,10,BLACK
+threshold_b,Threshold B,Obsidian Black,10,C_OBSIDIAN_BLACK,6,579,J000157,70,2,Threshold B,Threshold,B,22,Obsidian Black,10,BLACK
+threshold_b,Threshold B,Obsidian Black,10,C_OBSIDIAN_BLACK,6,579,J000158,70,3,Threshold B,Threshold,B,22,Obsidian Black,10,BLACK
+threshold_b,Threshold B,Obsidian Black,10,C_OBSIDIAN_BLACK,6,579,J000159,70,4,Threshold B,Threshold,B,22,Obsidian Black,10,BLACK
+threshold_b,Threshold B,Obsidian Black,10,C_OBSIDIAN_BLACK,6,579,J000160,70,5,Threshold B,Threshold,B,22,Obsidian Black,10,BLACK
+threshold_b,Threshold B,Obsidian Black,10,C_OBSIDIAN_BLACK,6,579,J000161,70,6,Threshold B,Threshold,B,22,Obsidian Black,10,BLACK
+threshold_b,Threshold B,Diamond White,2,C_DIAMOND_WHITE,2,177,J000162,71,1,Threshold B,Threshold,B,22,Diamond White,2,WHITE
+threshold_b,Threshold B,Diamond White,2,C_DIAMOND_WHITE,2,177,J000163,71,2,Threshold B,Threshold,B,22,Diamond White,2,WHITE
+threshold_c,Threshold C,Obsidian Black,10,C_OBSIDIAN_BLACK,3,276,J000164,72,1,Threshold C,Threshold,C,23,Obsidian Black,10,BLACK
+threshold_c,Threshold C,Obsidian Black,10,C_OBSIDIAN_BLACK,3,276,J000165,72,2,Threshold C,Threshold,C,23,Obsidian Black,10,BLACK
+threshold_c,Threshold C,Obsidian Black,10,C_OBSIDIAN_BLACK,3,276,J000166,72,3,Threshold C,Threshold,C,23,Obsidian Black,10,BLACK
+threshold_d,Threshold D,Polar White,1,C_POLAR_WHITE,5,468,J000167,73,1,Threshold D,Threshold,D,24,Polar White,1,WHITE
+threshold_d,Threshold D,Polar White,1,C_POLAR_WHITE,5,468,J000168,73,2,Threshold D,Threshold,D,24,Polar White,1,WHITE
+threshold_d,Threshold D,Polar White,1,C_POLAR_WHITE,5,468,J000169,73,3,Threshold D,Threshold,D,24,Polar White,1,WHITE
+threshold_d,Threshold D,Polar White,1,C_POLAR_WHITE,5,468,J000170,73,4,Threshold D,Threshold,D,24,Polar White,1,WHITE
+threshold_d,Threshold D,Polar White,1,C_POLAR_WHITE,5,468,J000171,73,5,Threshold D,Threshold,D,24,Polar White,1,WHITE
+threshold_e,Threshold E,Milan Silver,7,C_MILAN_SILVER,1,12,J000172,74,1,Threshold E,Threshold,E,25,Milan Silver,7,SILVER
+threshold_trim_a,Threshold trim A,Iridium Silver,8,C_IRIDIUM_SILVER,3,299,J000173,75,1,Threshold trim A,Threshold trim,A,26,Iridium Silver,8,SILVER
+threshold_trim_a,Threshold trim A,Iridium Silver,8,C_IRIDIUM_SILVER,3,299,J000174,75,2,Threshold trim A,Threshold trim,A,26,Iridium Silver,8,SILVER
+threshold_trim_a,Threshold trim A,Iridium Silver,8,C_IRIDIUM_SILVER,3,299,J000175,75,3,Threshold trim A,Threshold trim,A,26,Iridium Silver,8,SILVER
+radar_bracket_a,Radar bracket A,Ruby Red,3,C_RUBY_RED,1,5,J000176,76,1,Radar bracket A,Radar bracket,A,27,Ruby Red,3,RED
+radar_bracket_b,Radar bracket B,Sapphire Blue,5,C_SAPPHIRE_BLUE,1,12,J000177,77,1,Radar bracket B,Radar bracket,B,28,Sapphire Blue,5,BLUE
+radar_bracket_b,Radar bracket B,Polar White,1,C_POLAR_WHITE,1,32,J000178,78,1,Radar bracket B,Radar bracket,B,28,Polar White,1,WHITE
+radar_bracket_c,Radar bracket C,Diamond White,2,C_DIAMOND_WHITE,1,26,J000179,79,1,Radar bracket C,Radar bracket,C,29,Diamond White,2,WHITE
+radar_bracket_d,Radar bracket D,Obsidian Black,10,C_OBSIDIAN_BLACK,1,4,J000180,80,1,Radar bracket D,Radar bracket,D,30,Obsidian Black,10,BLACK
+radar_bracket_d,Radar bracket D,Milan Silver,7,C_MILAN_SILVER,1,3,J000181,81,1,Radar bracket D,Radar bracket,D,30,Milan Silver,7,SILVER
+radar_bracket_e,Radar bracket E,Denim Blue,4,C_DENIM_BLUE,1,5,J000182,82,1,Radar bracket E,Radar bracket,E,31,Denim Blue,4,BLUE
+radar_bracket_e,Radar bracket E,Diamond White,2,C_DIAMOND_WHITE,1,6,J000183,83,1,Radar bracket E,Radar bracket,E,31,Diamond White,2,WHITE

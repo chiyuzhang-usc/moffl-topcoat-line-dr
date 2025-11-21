@@ -1,0 +1,45 @@
+{
+  "step": "step08_des",
+  "timestamp": "2025-11-16T18:23:05.892032",
+  "config_files": {
+    "..\\global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+    "..\\steps_config.toml": "984420b879ae586cc862e16df894ceeaf300d250635e8811ccd0ee2c15f36647"
+  },
+  "inputs": {
+    "..\\global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+    "..\\steps_config.toml": "984420b879ae586cc862e16df894ceeaf300d250635e8811ccd0ee2c15f36647",
+    "..\\dataset\\adjacency_rules.csv": "b8a652432c9656fefeeac14e2237a8a89ae766ae5eb9848ded9974b02bc9ead2",
+    "..\\dataset\\s_matrix_transition.csv": "691d47ddda83efcbb46ad8da6b07384ba05ded416648460effecdf208c8e60b9",
+    "..\\dataset\\topcoat_codebook.csv": "6fe43ca94c75c10caa87119e3880ba29022d8aaa33e9d5beb1ff6a912e7d40d8",
+    "..\\dataset\\topcoat_rules.csv": "e2c6a616c875a076a296fd2ecebe32d27957a2c043a571538432b33a4fe53b46",
+    "step03_assignment.csv": "cf98fbf2ee523c5ac73c831f1b88d402f54e9b5934658524bb33ca0f4f1b3e53",
+    "step03_booth1.csv": "354d58856be6c488ddcc20c46140ab83a5da09a5a912dda287fec31fec5b6eb5",
+    "step03_booth2.csv": "3754125d7f34c12fe9320604a15ee34cd933a56c995c6801f486de6652282826",
+    "step05_global_line.csv": "2577fab0cce194fff8670b5fab73b2de4d3ff9df5c446b490e8fcaec752bdefd",
+    "step06_milp_opt_global.csv": "c2b9bdda295112612e07e693a4064dc927f95acab4452a41fa69b44801d7d3e4",
+    "step07_global_line.csv": "776ea7e021ceb24399784cbbae2c4e0594a75b8636e00193a8bf5866e9091712",
+    "step07_global_line_seeded.csv": "d7b9b714f19ecda5c91f93209b50a1c3c325fdf50047d65357255b70f08f5fac"
+  },
+  "outputs": {
+    "step08_des_metrics.csv": "53e3dc67a5acea376e853c1f6d301cba957b37cab9fc03895eb5be2cd62d9e2d",
+    "manifests\\step08_manifest.json": "e00e418c74fbf14996e7a62f9ad4b9f85c3169b18492553c0a400c82c6017344",
+    "reports\\step08_report.md": "afb7ba533eb7e8f8eac64e1ff9686567b6eb1b2e76efc6a408713417b556ef6c"
+  },
+  "settings_effective": {
+    "base_paint_time": 1.0,
+    "time_per_setup_unit": 1.0,
+    "oven_time_per_job": 1.5,
+    "empty_time_ratio": 1.0,
+    "allow_purge": true,
+    "flush_cost_units": 3.0,
+    "tie_break_policy": "longer_remaining",
+    "run_step05": true,
+    "run_step06": true,
+    "run_step07": true,
+    "f4_weights": null
+  },
+  "summary": {
+    "scenarios": 373,
+    "runtime_seconds": 3.7600910663604736
+  }
+}

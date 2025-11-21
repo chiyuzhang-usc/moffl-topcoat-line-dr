@@ -1,0 +1,100 @@
+{
+  "step": "step02",
+  "purpose": "Toyota Grouping & Spacing on feeder",
+  "what": "Construct C1/C2-feasible token stream with spacing/mix and optional cycle quotas.",
+  "why": "Provide deterministic, data-driven seed for downstream steps.",
+  "config_files": {
+    "global_config.toml": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\global_config.toml",
+    "steps_config.toml": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\steps_config.toml",
+    "step02_empirical.toml": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\step02_empirical.toml"
+  },
+  "io_hashes": {
+    "inputs": {
+      "global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+      "steps_config.toml": "f76bd9dc5486cc9b025838abe1c170527681d73b6cd6f98b8a8c5ad3448ccd69",
+      "step02_empirical.toml": "54a9ca0d3cea3ca8114eadcc63fc3b92b83922481ec2ad39bcb7e63967966292",
+      "step01_jobs_expanded.csv": "5343941e66d3f7b5f0ca7914023464f41d6039fe02a5750098519a1b9c00d9a5",
+      "s_matrix_transition.csv": "691d47ddda83efcbb46ad8da6b07384ba05ded416648460effecdf208c8e60b9",
+      "s_lookup_transition.csv": "d87b9079ee8f5defdc73b2c07015aa978bca5c861a1bcb9984f0abb312675e2c",
+      "adjacency_rules.csv": "b8a652432c9656fefeeac14e2237a8a89ae766ae5eb9848ded9974b02bc9ead2"
+    },
+    "outputs": {
+      "step02_paint_seed.csv": "11e072a341816ae7f6b05b99ecbcefe4d8d06923093ac54e765fc8ad4707cdd7"
+    }
+  },
+  "settings_effective": {
+    "window_W": 28,
+    "alpha_run_cap": 0.6,
+    "max_run_abs": 30,
+    "fifo_lookahead": 3,
+    "token_costs": {
+      "flush_unit": 1.0,
+      "empty_unit": 1.0
+    },
+    "empty_weight": 1.0,
+    "flush_weight": 1.0,
+    "run_caps": {
+      "C_DENIM_BLUE": 16,
+      "C_DIAMOND_WHITE": 16,
+      "C_IRIDIUM_SILVER": 16,
+      "C_MILAN_SILVER": 16,
+      "C_OBSIDIAN_BLACK": 16,
+      "C_POLAR_WHITE": 16,
+      "C_RUBY_RED": 16,
+      "C_SAPPHIRE_BLUE": 16,
+      "C_SHINING_BLUE": 16,
+      "C_UNIVERSE_BLACK": 16
+    },
+    "colors": [
+      "C_DENIM_BLUE",
+      "C_DIAMOND_WHITE",
+      "C_IRIDIUM_SILVER",
+      "C_MILAN_SILVER",
+      "C_OBSIDIAN_BLACK",
+      "C_POLAR_WHITE",
+      "C_RUBY_RED",
+      "C_SAPPHIRE_BLUE",
+      "C_SHINING_BLUE",
+      "C_UNIVERSE_BLACK"
+    ],
+    "use_cycle_quota": false,
+    "cycle_size": null,
+    "schema": {
+      "topcoat": "color_code",
+      "part": "part_id",
+      "job_id": "job_id"
+    },
+    "output_dir": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output"
+  },
+  "metrics": {
+    "num_jobs": 183,
+    "window_W": 28,
+    "num_empty": 5,
+    "num_flush": 3,
+    "setup_units": 12.0,
+    "quota_violations": 0
+  },
+  "diagnostics": {
+    "token_distribution": {
+      "JOB": 183,
+      "EMPTY": 5,
+      "FLUSH": 3,
+      "START": 1
+    },
+    "max_run_len_by_topcoat": {
+      "C_IRIDIUM_SILVER": 12,
+      "C_SHINING_BLUE": 16,
+      "C_OBSIDIAN_BLACK": 16,
+      "C_POLAR_WHITE": 16,
+      "C_MILAN_SILVER": 11,
+      "C_SAPPHIRE_BLUE": 11,
+      "C_DIAMOND_WHITE": 16,
+      "C_RUBY_RED": 13,
+      "C_UNIVERSE_BLACK": 1,
+      "C_DENIM_BLUE": 3
+    },
+    "quota_violations": 0
+  },
+  "generated_at": "2025-11-15 23:16:20",
+  "version": "step02_gs_v2.0"
+}

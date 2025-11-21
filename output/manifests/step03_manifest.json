@@ -1,0 +1,54 @@
+{
+  "step": "step03",
+  "purpose": "Split global feeder JOB sequence into two booth job streams for SDSU/MILP/NSGA-II.",
+  "what": "Pure f3-based greedy booth assignment (job counts + rho * cross) with no C1/C2 gating.",
+  "why": "Provide balanced per-booth job sets and traceable mapping from feeder to booths.",
+  "config_files": {
+    "global_config.toml": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\global_config.toml",
+    "steps_config.toml": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\steps_config.toml"
+  },
+  "io_hashes": {
+    "inputs": {
+      "global_config.toml": "864ab14ee53d623c6c62e643541f20675337e139a60b00ca33a310fd6faec1e8",
+      "steps_config.toml": "f76bd9dc5486cc9b025838abe1c170527681d73b6cd6f98b8a8c5ad3448ccd69",
+      "seed_stream": "11e072a341816ae7f6b05b99ecbcefe4d8d06923093ac54e765fc8ad4707cdd7"
+    },
+    "outputs": {
+      "step03_booth1.csv": "354d58856be6c488ddcc20c46140ab83a5da09a5a912dda287fec31fec5b6eb5",
+      "step03_booth2.csv": "3754125d7f34c12fe9320604a15ee34cd933a56c995c6801f486de6652282826",
+      "step03_assignment.csv": "cf98fbf2ee523c5ac73c831f1b88d402f54e9b5934658524bb33ca0f4f1b3e53"
+    }
+  },
+  "settings_effective": {
+    "output_dir": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output",
+    "seed_csv": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step02_paint_seed.csv",
+    "booth1_csv": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_booth1.csv",
+    "booth2_csv": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_booth2.csv",
+    "assignment_csv": "C:\\Users\\cz\\OneDrive - University of Southern California\\DirectedResearch_Gupta\\Procedure\\output\\step03_assignment.csv",
+    "rho": 1.0,
+    "reshuffle_L_max": 0,
+    "schema": {
+      "job_id_col": "job_id",
+      "token_index_col": "token_index"
+    },
+    "enforce_no_tokens": true,
+    "algorithm": "greedy_f3_split_no_C1C2"
+  },
+  "metrics": {
+    "num_jobs": 183,
+    "num_jobs_booth1": 91,
+    "num_jobs_booth2": 92,
+    "cross": 91,
+    "f3_split": 92.0
+  },
+  "diagnostics": {
+    "num_jobs": 183,
+    "num_jobs_booth1": 91,
+    "num_jobs_booth2": 92,
+    "cross": 91,
+    "f3_split": 92.0
+  },
+  "generated_at": "2025-11-15 23:16:34",
+  "version": "step03_split_v2.0_greedy_f3",
+  "runtime_sec": 0.07972121238708496
+}
